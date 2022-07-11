@@ -5,7 +5,7 @@ import { FaGithub, FaLinkedinIn } from 'react-icons/fa';
 import { BsFillPersonLinesFill } from 'react-icons/bs';
 import { useState } from "react";
 
-function Navbar({ lang }) {
+function Navbar({ smallText, lang }) {
 
     const [nav, setNav] = useState(false)
 
@@ -46,7 +46,7 @@ function Navbar({ lang }) {
                     <div
                         // style={{ color: `${linkColor}` }}
                         // onClick={handleNav}
-                        className='lg:hidden'
+                        className='lg:hidden cursor-pointer'
                         onClick={() => toggleNav(true)}
                     >
                         <AiOutlineMenu size={25} />
@@ -77,28 +77,24 @@ function Navbar({ lang }) {
                     <div className="ml-[2%] w-[96%] py-4 flex flex-col">
                         <ul className="uppercase">
                             <Link href='/'>
-                                <li className="py-4 text-sm" >Home</li>
+                                <li className="py-4 text-sm" >{link.Home}</li>
                             </Link>
                             <Link href='/'>
-                                <li className="py-4 text-sm" >About</li>
+                                <li className="py-4 text-sm" >{link.About}</li>
                             </Link>
                             <Link href='/'>
-                                <li className="py-4 text-sm" >Skills</li>
+                                <li className="py-4 text-sm" >{link.Skills}</li>
                             </Link>
                             <Link href='/'>
-                                <li className="py-4 text-sm" >Projects</li>
+                                <li className="py-4 text-sm" >{link.Projects}</li>
                             </Link>
                             <Link href='/'>
-                                <li className="py-4 text-sm" >Contact</li>
+                                <li className="py-4 text-sm" >{link.Contact}</li>
                             </Link>
                         </ul>
                         <div className="pt-40">
                             <p className="uppercase tracking-widest text-[#5651e5]">
-                                {lang === 'fr' ? (
-                                    'Me contacter'
-                                ) : (
-                                    'Get in touch with me'
-                                )}
+                                {smallText}
                             </p>
                             <div className='flex items-center justify-between my-4 w-full sm:w-[80%]'>
                                 <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300">
