@@ -3,8 +3,16 @@ import Link from "next/link"
 import { AiOutlineClose, AiOutlineMail, AiOutlineMenu } from 'react-icons/ai';
 import { FaGithub, FaLinkedinIn } from 'react-icons/fa';
 import { BsFillPersonLinesFill } from 'react-icons/bs';
+import { useState } from "react";
 
 function Navbar({ lang }) {
+
+    const [nav, setNav] = useState(false)
+
+    const toggleNav = (val = 'tsisy') => {
+        val !== 'tsisy' ? setNav(val) : setNav(!nav)
+    }
+
     const link = (lang === 'fr') ? (
         { Home: 'Accueil', About: 'A propos', Skills: 'Compétences', Projects: 'Projets', Resume: 'Résumé', Contact: 'Contact' }
     ) : (
@@ -39,17 +47,21 @@ function Navbar({ lang }) {
                         // style={{ color: `${linkColor}` }}
                         // onClick={handleNav}
                         className='lg:hidden'
+                        onClick={() => toggleNav(true)}
                     >
                         <AiOutlineMenu size={25} />
                     </div>
                 </div>
             </div>
-            <div className="fixed left-0 top-0 w-full h-screen bg-black/70">
-                <div className="fixed left-0 top-0 w-[75%] sm:w-[60%] md:w-[45%] h-screen bg-[#ecf0f3]">
+
+            <div className={nav ? `lg:hidden fixed left-0 top-0 w-full h-screen bg-black/70` : ""}>
+                <div className={nav ?
+                    "fixed left-0 top-0 w-[75%] sm:w-[60%] md:w-[45%] p-10 h-screen bg-[#ecf0f3] ease-in duration-500" :
+                    "fixed left-[-100%] top-0 p-10 ease-in duration-500"}>
                     <div className="ml-[2%] w-[96%]">
                         <div className="flex my-2 items-center justify-between">
                             <Image src='/assets/lux-head.png' width='60' height='35' alt />
-                            <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer">
+                            <div onClick={() => toggleNav(false)} className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer">
                                 <AiOutlineClose />
                             </div>
                         </div>
@@ -107,6 +119,7 @@ function Navbar({ lang }) {
                     </div>
                 </div>
             </div>
+
         </div>
     )
 }
