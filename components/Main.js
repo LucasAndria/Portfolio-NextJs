@@ -24,6 +24,7 @@ function Main({ smallText, lang }) {
                     <p className="py-4 text-gray-600 max-w-[70%] m-auto">
                         {presentation}
                     </p>
+                    <div>ETO ISIKA IZAO</div>
                 </div>
             </div>
         </div>

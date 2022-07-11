@@ -22,7 +22,7 @@ function Navbar({ smallText, lang }) {
         <div className="fixed ml-[1%] w-[98%] h-20 shadow-xl z-[100]">
             <div className='flex justify-between items-center w-full h-full px-1 sm:px-5'>
                 <Image src='/assets/lux-head.png' width='70' height='50' alt />
-                <div>
+                <div className="mx-[1%]">
                     <ul className='hidden lg:flex'>
                         <li className='ml-10 text-sm uppercase hover:border-b'>
                             <Link href='/'>{link.Home}</Link>
@@ -56,9 +56,9 @@ function Navbar({ smallText, lang }) {
 
             <div className={nav ? `lg:hidden fixed left-0 top-0 w-full h-screen bg-black/70` : ""}>
                 <div className={nav ?
-                    "fixed left-0 top-0 w-[75%] sm:w-[60%] md:w-[45%] p-10 h-screen bg-[#ecf0f3] ease-in duration-500" :
+                    "fixed left-0 top-0 w-[80%] sm:w-[70%] md:w-[60%] p-4 h-screen bg-[#ecf0f3] ease-in duration-500" :
                     "fixed left-[-100%] top-0 p-10 ease-in duration-500"}>
-                    <div className="ml-[2%] w-[96%]">
+                    <div>
                         <div className="flex my-2 items-center justify-between">
                             <Image src='/assets/lux-head.png' width='60' height='35' alt />
                             <div onClick={() => toggleNav(false)} className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer">
@@ -93,7 +93,7 @@ function Navbar({ smallText, lang }) {
                             </Link>
                         </ul>
                         <div className="pt-40">
-                            <p className="uppercase tracking-widest text-[#5651e5]">
+                            <p className="uppercase tracking-widest text-[#5651e5] text-sm md:text-lg">
                                 {smallText}
                             </p>
                             <div className='flex items-center justify-between my-4 w-full sm:w-[80%]'>
