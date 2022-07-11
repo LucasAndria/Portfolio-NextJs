@@ -10,7 +10,7 @@ export default function Home() {
     <div>
       <Head>
         <title>{title}</title>
-        <link ref='icon' href="/vercel.svg" />
+        <link ref='icon' href="/assets/lux-head.png" />
       </Head>
 
       <Navbar lang={lang} />
