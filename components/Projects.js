@@ -1,5 +1,5 @@
-import Image from "next/image"
-import Link from "next/link"
+import ProjectItem from "./ProjectItem"
+import Me from '../public/assets/me.jpeg'
 
 function Projects() {
     return (
@@ -9,19 +9,10 @@ function Projects() {
                 <h2 className="py-4">What I've built</h2>
                 <div className="grid md:grid-cols-2 gap-8">
 
-                    <div className="relative flex items-center justify-center h-auto w-full shadow-xl shadow-gray-400 
-                    rounded-xl p-4 group hover:bg-gradient-to-r from-[#5651e5] to-[#709dff]">
-                        <Image className="rounded-xl group-hover:opacity-40" src='/assets/me.jpeg' width={500} height={500} alt='background' />
-                        <div className="hidden group-hover:block absolute top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%]">
-                            <h3 className="text-2xl text-white tracking-wider text-center">Project Title</h3>
-                            <p className="pb-4 pt-2 text-white text-center">Some info</p>
-                            <Link href='/'>
-                                <p className="text-center py-3 px-4 rounded-lg bg-white text-gray-700 font-bold text-lg cursor-pointer">
-                                    Plus d'info
-                                </p>
-                            </Link>
-                        </div>
-                    </div>
+                    <ProjectItem titre='Titre du projet' bgImg={Me} url='/le-projet' />
+                    <ProjectItem titre='Titre du projet' bgImg={Me} url='/le-projet' />
+                    <ProjectItem titre='Titre du projet' bgImg={Me} url='/le-projet' />
+                    <ProjectItem titre='Titre du projet' bgImg={Me} url='/le-projet' />
 
                 </div>
             </div>

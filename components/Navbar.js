@@ -24,22 +24,22 @@ function Navbar({ smallText, lang }) {
                 <Image src='/assets/lux-head.png' width='70' height='50' />
                 <div className="mx-[1%]">
                     <ul className='hidden lg:flex'>
-                        <li className='ml-10 text-sm uppercase hover:border-b'>
+                        <li className='ml-10 text-sm uppercase hover:text-green-500'>
                             <Link href='/'>{link.Home}</Link>
                         </li>
-                        <li className='ml-10 text-sm uppercase hover:border-b'>
+                        <li className='ml-10 text-sm uppercase hover:text-green-500'>
                             <Link href='/'>{link.About}</Link>
                         </li>
-                        <li className='ml-10 text-sm uppercase hover:border-b'>
+                        <li className='ml-10 text-sm uppercase hover:text-green-500'>
                             <Link href='/'>{link.Skills}</Link>
                         </li>
-                        <li className='ml-10 text-sm uppercase hover:border-b'>
+                        <li className='ml-10 text-sm uppercase hover:text-green-500'>
                             <Link href='/'>{link.Projects}</Link>
                         </li>
-                        <li className='ml-10 text-sm uppercase hover:border-b'>
+                        <li className='ml-10 text-sm uppercase hover:text-green-500'>
                             <Link href='/'>{link.Resume}</Link>
                         </li>
-                        <li className='ml-10 text-sm uppercase hover:border-b'>
+                        <li className='ml-10 text-sm uppercase hover:text-green-500'>
                             <Link href='/'>{link.Contact}</Link>
                         </li>
                     </ul>
