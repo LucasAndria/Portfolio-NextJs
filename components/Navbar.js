@@ -19,7 +19,7 @@ function Navbar({ smallText, lang }) {
         { Home: 'Home', About: 'About', Skills: 'Skills', Projects: 'Projects', Resume: 'Resume', Contact: 'Contact' }
     )
     return (
-        <div className="fixed ml-[1%] w-[98%] h-20 shadow-xl z-[100]">
+        <div className="fixed ml-[1%] w-[98%] h-20 shadow-xl z-[100] bg-white/80">
             <div className='flex justify-between items-center w-full h-full px-1 sm:px-5'>
                 <Image src='/assets/lux-head.png' width='70' height='50' />
                 <div className="mx-[1%]">

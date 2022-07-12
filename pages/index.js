@@ -3,6 +3,7 @@ import { useState } from "react";
 import About from "../components/About";
 import Main from "../components/Main";
 import Navbar from "../components/Navbar";
+import Skills from "../components/Skills";
 
 export default function Home() {
 
@@ -19,6 +20,7 @@ export default function Home() {
       <Navbar smallText={smallText} lang={lang} />
       <Main smallText={smallText} lang={lang} />
       <About lang={lang} />
+      <Skills lang={lang} />
     </div>
   )
 }
