@@ -27,18 +27,18 @@ function Main({ smallText, lang }) {
                     {brefPresentation}
 
                     {presentation}
-                    <div className="flex items-center justify-between max-w-[330px] m-auto py-4">
-                        <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
-                            <FaLinkedinIn />
+                    <div className="flex items-center justify-between max-w-[300px] sm:max-w-[400px] lg:max-w-[500px] m-auto py-4 ease-in duration-300">
+                        <div className="group rounded-full shadow-lg shadow-gray-400 p-[18px] sm:p-6 cursor-pointer hover:scale-110 ease-in duration-300">
+                            <FaLinkedinIn className="group-hover:animate-wiggle" />
                         </div>
-                        <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
-                            <FaGithub />
+                        <div className="group rounded-full shadow-lg shadow-gray-400 p-[18px] sm:p-6 cursor-pointer hover:scale-110 ease-in duration-300">
+                            <FaGithub className="group-hover:animate-wiggle" />
                         </div>
-                        <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
-                            <AiOutlineMail />
+                        <div className="group rounded-full shadow-lg shadow-gray-400 p-[18px] sm:p-6 cursor-pointer hover:scale-110 ease-in duration-300">
+                            <AiOutlineMail className="group-hover:animate-wiggle" />
                         </div>
-                        <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
-                            <BsFillPersonLinesFill />
+                        <div className="group rounded-full shadow-lg shadow-gray-400 p-[18px] sm:p-6 cursor-pointer hover:scale-110 ease-in duration-300">
+                            <BsFillPersonLinesFill className="group-hover:animate-wiggle" />
                         </div>
                     </div>
                 </div>
