@@ -23,7 +23,7 @@ function About({ lang }) {
                     </p>
                 </div>
 
-                <div className='w-full h-[60vh] sm:h-[70vh] md:h-[60vh] m-auto shadow-2xl shadow-gray-600 rounded-xl flex items-center justify-center p-4 scale-100 hover:scale-105 ease-in duration-300'>
+                <div className='w-full h-[60vh] sm:h-[70vh] md:h-[60vh] m-auto shadow-xl shadow-gray-600 rounded-xl flex items-center justify-center p-4 scale-100 hover:scale-105 ease-in duration-300'>
                     <Image src='/assets/me.jpeg' layout='fill' className='rounded-xl' />
                 </div>
             </div>
