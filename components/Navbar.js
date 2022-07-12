@@ -93,10 +93,10 @@ function Navbar({ smallText, lang }) {
                             </Link>
                         </ul>
                         <div className="pt-40">
-                            <p className="uppercase tracking-widest text-[#5651e5] text-sm md:text-lg">
+                            <p className="uppercase tracking-widest text-[#5651e5] text-sm md:text-[0.92rem]">
                                 {smallText}
                             </p>
-                            <div className='flex items-center justify-between my-4 w-full sm:w-[80%]'>
+                            <div className='flex items-center justify-between my-4 w-[80%]'>
                                 <div className="group rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300">
                                     <FaLinkedinIn className="group-hover:animate-wiggle" />
                                 </div>
