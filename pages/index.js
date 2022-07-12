@@ -1,5 +1,6 @@
 import Head from "next/head";
 import { useState } from "react";
+import About from "../components/About";
 import Main from "../components/Main";
 import Navbar from "../components/Navbar";
 
@@ -17,6 +18,7 @@ export default function Home() {
 
       <Navbar smallText={smallText} lang={lang} />
       <Main smallText={smallText} lang={lang} />
+      <About lang={lang} />
     </div>
   )
 }
