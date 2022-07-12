@@ -8,10 +8,10 @@ function Skills({ lang }) {
                     Skills
                 </p>
                 <h2 className="py-4">What I can do</h2>
-                <div className="grid md:grid-cols-2 lg:grid-cols-4">
+                <div className="grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
                     {/* tokony map */}
                     {/* 1 */}
-                    <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300 m-4">
+                    <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
                         <div className="grid grid-cols-2 gap-4 justify-center items-center">
                             <div className="m-auto">
                                 <Image src='/assets/skills/html.png' width='64px' height='64px' alt="HTML Image" />
@@ -22,7 +22,7 @@ function Skills({ lang }) {
                         </div>
                     </div>
                     {/* 2 */}
-                    <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300 m-4">
+                    <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
                         <div className="grid grid-cols-2 gap-4 justify-center items-center">
                             <div className="m-auto">
                                 <Image src='/assets/skills/css.png' width='64px' height='64px' alt="HTML Image" />
@@ -33,7 +33,7 @@ function Skills({ lang }) {
                         </div>
                     </div>
                     {/* 3 */}
-                    <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300 m-4">
+                    <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
                         <div className="grid grid-cols-2 gap-4 justify-center items-center">
                             <div className="m-auto">
                                 <Image src='/assets/skills/html.png' width='64px' height='64px' alt="HTML Image" />
@@ -44,7 +44,7 @@ function Skills({ lang }) {
                         </div>
                     </div>
                     {/* 4 */}
-                    <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300 m-4">
+                    <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
                         <div className="grid grid-cols-2 gap-4 justify-center items-center">
                             <div className="m-auto">
                                 <Image src='/assets/skills/html.png' width='64px' height='64px' alt="HTML Image" />
@@ -55,7 +55,7 @@ function Skills({ lang }) {
                         </div>
                     </div>
                     {/* 5 */}
-                    <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300 m-4">
+                    <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
                         <div className="grid grid-cols-2 gap-4 justify-center items-center">
                             <div className="m-auto">
                                 <Image src='/assets/skills/html.png' width='64px' height='64px' alt="HTML Image" />

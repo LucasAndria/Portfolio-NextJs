@@ -19,7 +19,7 @@ function Navbar({ smallText, lang }) {
         { Home: 'Home', About: 'About', Skills: 'Skills', Projects: 'Projects', Resume: 'Resume', Contact: 'Contact' }
     )
     return (
-        <div className="fixed ml-[1%] w-[98%] h-20 shadow-xl z-[100] bg-white/80">
+        <div className="fixed w-full h-20 shadow-xl z-[100] bg-white/80">
             <div className='flex justify-between items-center w-full h-full px-1 sm:px-5'>
                 <Image src='/assets/lux-head.png' width='70' height='50' />
                 <div className="mx-[1%]">
@@ -54,10 +54,10 @@ function Navbar({ smallText, lang }) {
                 </div>
             </div>
 
-            <div className={nav ? 'lg:hidden fixed left-0 top-0 w-full h-screen bg-black/70' : ""}>
+            <div className={nav ? 'lg:hidden fixed left-0 top-0 w-full h-screen bg-black/70' : "w-full h-screen"}>
                 <div className={nav ?
-                    "fixed left-0 top-0 w-[80%] sm:w-[70%] md:w-[60%] p-4 h-screen bg-[#ecf0f3] ease-in duration-500" :
-                    "fixed left-[-100%] top-0 p-10 ease-in duration-500"}>
+                    "fixed left-0 top-0 w-[80%] sm:w-[70%] md:w-[60%] p-4 h-screen bg-[#ecf0f3] ease-in-out duration-500" :
+                    "fixed left-[-100%] top-0 p-10 ease-in-out duration-500"}>
                     <div>
                         <div className="flex my-2 items-center justify-between">
                             <Image src='/assets/lux-head.png' width='60' height='35' />
