@@ -3,15 +3,27 @@ import Link from "next/link"
 import { AiOutlineClose, AiOutlineMail, AiOutlineMenu } from 'react-icons/ai';
 import { FaGithub, FaLinkedinIn } from 'react-icons/fa';
 import { BsFillPersonLinesFill } from 'react-icons/bs';
-import { useState } from "react";
+import { useEffect, useState } from "react";
 
 function Navbar({ smallText, lang }) {
 
     const [nav, setNav] = useState(false)
+    const [shadow, setShadow] = useState(false)
 
     const toggleNav = (val = 'tsisy') => {
         val !== 'tsisy' ? setNav(val) : setNav(!nav)
     }
+
+    useEffect(() => {
+        const handleShadow = () => {
+            if (window.scrollY >= 90) {
+                setShadow(true)
+            } else {
+                setShadow(false)
+            }
+        };
+        window.addEventListener('scroll', handleShadow)
+    }, [])
 
     const link = (lang === 'fr') ? (
         { Home: 'Accueil', About: 'A propos', Skills: 'Compétences', Projects: 'Projets', Resume: 'Résumé', Contact: 'Contact' }
@@ -19,28 +31,30 @@ function Navbar({ smallText, lang }) {
         { Home: 'Home', About: 'About', Skills: 'Skills', Projects: 'Projects', Resume: 'Resume', Contact: 'Contact' }
     )
     return (
-        <div className="fixed w-full h-20 shadow-xl z-[100] bg-white/80">
+        <div className={shadow ? 'fixed w-full h-20 shadow-xl z-[100] bg-white/80' : 'fixed w-full h-20 z-[100] bg-white/80'}>
             <div className='flex justify-between items-center w-full h-full px-1 sm:px-5'>
-                <Image src='/assets/lux-head.png' width='70' height='50' />
+                <Link href='/'>
+                    <Image className="cursor-pointer" src='/assets/lux-head.png' width='70' height='50' />
+                </Link>
                 <div className="mx-[1%]">
                     <ul className='hidden lg:flex'>
-                        <li className='ml-10 text-sm uppercase hover:text-green-500'>
+                        <li className='ml-10 text-sm uppercase hover:text-[#5651e5]'>
                             <Link href='/'>{link.Home}</Link>
                         </li>
-                        <li className='ml-10 text-sm uppercase hover:text-green-500'>
-                            <Link href='/'>{link.About}</Link>
+                        <li className='ml-10 text-sm uppercase hover:text-[#5651e5]'>
+                            <Link href='/#about'>{link.About}</Link>
                         </li>
-                        <li className='ml-10 text-sm uppercase hover:text-green-500'>
-                            <Link href='/'>{link.Skills}</Link>
+                        <li className='ml-10 text-sm uppercase hover:text-[#5651e5]'>
+                            <Link href='/#skills'>{link.Skills}</Link>
                         </li>
-                        <li className='ml-10 text-sm uppercase hover:text-green-500'>
-                            <Link href='/'>{link.Projects}</Link>
+                        <li className='ml-10 text-sm uppercase hover:text-[#5651e5]'>
+                            <Link href='/#projects'>{link.Projects}</Link>
                         </li>
-                        <li className='ml-10 text-sm uppercase hover:text-green-500'>
+                        <li className='ml-10 text-sm uppercase hover:text-[#5651e5]'>
                             <Link href='/'>{link.Resume}</Link>
                         </li>
-                        <li className='ml-10 text-sm uppercase hover:text-green-500'>
-                            <Link href='/'>{link.Contact}</Link>
+                        <li className='ml-10 text-sm uppercase hover:text-[#5651e5]'>
+                            <Link href='/#contact'>{link.Contact}</Link>
                         </li>
                     </ul>
                     <div

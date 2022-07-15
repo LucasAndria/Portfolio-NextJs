@@ -17,7 +17,7 @@ function Main({ smallText, lang }) {
         <p className="py-4 text-gray-600 max-w-[70%] m-auto lg:text-lg ease-in duration-300">Lorem ipsum mais en english dolor sit amet consectetur, adipisicing elit. Hic maiores cumque eius sed consectetur mollitia adipisci tempore modi vero? Molestias iusto eius officiis rem, illum perferendis soluta perspiciatis nam! Itaque.</p>)
 
     return (
-        <div className="w-full h-screen text-center">
+        <div id='home' className="w-full h-screen text-center">
             <div className="max-w-[1240px] w-full h-full mx-auto p-2 flex justify-center items-center">
                 <div>
                     <p className="uppercase text-sm tracking-widest text-gray-600">
