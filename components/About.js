@@ -12,10 +12,10 @@ function About({ lang }) {
                         Description of me Lorem, ipsum dolor sit amet consectetur
                     </p>
                     <p className='py-2 text-gray-600'>
-                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium tenetur dolore sunt sapiente sint, distinctio accusantium magni iste unde error temporibus a? Voluptas dicta suscipit veniam dignissimos porro. Harum fugiat assumenda accusamus inventore architecto repellendus eligendi! Eos eveniet quam quo mollitia accusamus veritatis quos iure reiciendis dicta in! Assumenda, nemo?
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium tenetur dolore sunt sapiente sint, distinctio accusantium magni iste unde error temporibus a? Voluptas dicta suscipit veniam dignissimos porro. Harum fugiat assumenda accusamus inventore architecto repellendus eligendi!
                     </p>
                     <p className='py-2 text-gray-600'>
-                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempore sapiente laudantium vitae quam tenetur quo est voluptatum voluptatem deserunt. Perspiciatis, voluptatum veniam architecto obcaecati totam, esse in dolorem consectetur ipsam officiis dignissimos omnis eos? Nulla, sit, impedit nesciunt nam dicta et dignissimos perspiciatis sapiente aperiam molestiae fugiat. Temporibus, quis error magnam cumque illum veritatis vitae atque, libero recusandae dolorum nam beatae nostrum? Soluta cupiditate quo omnis quasi, nesciunt beatae eos delectus. Totam at officia fuga aspernatur modi reiciendis? Necessitatibus, ad eum dignissimos eligendi eos at quia esse accusamus dolore est, repellendus praesentium ducimus facilis velit soluta quas quo incidunt natus.
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempore sapiente laudantium vitae quam tenetur quo est voluptatum voluptatem deserunt. Perspiciatis, voluptatum veniam architecto obcaecati totam, esse in dolorem consectetur ipsam officiis dignissimos omnis eos? Nulla, sit, impedit nesciunt
                     </p>
 
                     <p className='py-2 text-gray-600 underline cursor-pointer'>

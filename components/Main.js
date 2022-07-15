@@ -28,16 +28,16 @@ function Main({ smallText, lang }) {
 
                     {presentation}
                     <div className="flex items-center justify-between max-w-[300px] sm:max-w-[400px] lg:max-w-[500px] 2xl:max-w-[600px] m-auto py-4 ease-in duration-300">
-                        <div className="group rounded-full shadow-lg shadow-gray-400 p-[18px] sm:p-6 lg:p-7 2xl:p-8 cursor-pointer hover:scale-110 ease-in duration-300">
+                        <div className="group rounded-full shadow-lg shadow-gray-400 p-[18px] lg:p-6 cursor-pointer hover:scale-110 ease-in duration-300">
                             <FaLinkedinIn className="group-hover:animate-wiggle lg:w-5 lg:h-5 2xl:w-6 2xl:h-6 ease-in duration-300 " />
                         </div>
-                        <div className="group rounded-full shadow-lg shadow-gray-400 p-[18px] sm:p-6 lg:p-7 2xl:p-8 cursor-pointer hover:scale-110 ease-in duration-300">
+                        <div className="group rounded-full shadow-lg shadow-gray-400 p-[18px] lg:p-6 cursor-pointer hover:scale-110 ease-in duration-300">
                             <FaGithub className="group-hover:animate-wiggle lg:w-5 lg:h-5 2xl:w-6 2xl:h-6 ease-in duration-300" />
                         </div>
-                        <div className="group rounded-full shadow-lg shadow-gray-400 p-[18px] sm:p-6 lg:p-7 2xl:p-8 cursor-pointer hover:scale-110 ease-in duration-300">
+                        <div className="group rounded-full shadow-lg shadow-gray-400 p-[18px] lg:p-6 cursor-pointer hover:scale-110 ease-in duration-300">
                             <AiOutlineMail className="group-hover:animate-wiggle lg:w-5 lg:h-5 2xl:w-6 2xl:h-6 ease-in duration-300" />
                         </div>
-                        <div className="group rounded-full shadow-lg shadow-gray-400 p-[18px] sm:p-6 lg:p-7 2xl:p-8 cursor-pointer hover:scale-110 ease-in duration-300">
+                        <div className="group rounded-full shadow-lg shadow-gray-400 p-[18px] lg:p-6 cursor-pointer hover:scale-110 ease-in duration-300">
                             <BsFillPersonLinesFill className="group-hover:animate-wiggle lg:w-5 lg:h-5 2xl:w-6 2xl:h-6 ease-in duration-300" />
                         </div>
                     </div>
