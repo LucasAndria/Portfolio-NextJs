@@ -3,7 +3,7 @@ import React from 'react'
 
 function About({ lang }) {
     return (
-        <div id='about' className='w-full md:h-screen p-2 flex items-center py-16'>
+        <div id='about' className='w-full md:h-screen p-2 flex items-center pt-24'>
             <div className='max-w-[1240px] m-auto md:grid grid-cols-3 gap-8'>
                 <div className='col-span-2'>
                     <p className='uppercase text-xl tracking-widest text-[#5651e5]'>About</p>
@@ -16,10 +16,6 @@ function About({ lang }) {
                     </p>
                     <p className='py-2 text-gray-600'>
                         Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempore sapiente laudantium vitae quam tenetur quo est voluptatum voluptatem deserunt. Perspiciatis, voluptatum veniam architecto obcaecati totam, esse in dolorem consectetur ipsam officiis dignissimos omnis eos? Nulla, sit, impedit nesciunt
-                    </p>
-
-                    <p className='py-2 text-gray-600 underline cursor-pointer'>
-                        Check out some of my projects.
                     </p>
                 </div>
 

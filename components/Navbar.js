@@ -9,7 +9,6 @@ import { useRouter } from 'next/router'
 
 function Navbar({ smallText, lang }) {
 
-
     const [nav, setNav] = useState(false)
     const [shadow, setShadow] = useState(false)
     const [navBg, setNavBg] = useState('#ecf0f3')
@@ -47,8 +46,8 @@ function Navbar({ smallText, lang }) {
         { Home: 'Home', About: 'About', Skills: 'Skills', Projects: 'Projects', Resume: 'Resume', Contact: 'Contact' }
     )
     return (
-        <div style={{ backgroundColor: navBg }} className={shadow ? 'fixed w-full h-20 shadow-xl z-[100] ease-in duration-300' :
-            'fixed w-full h-20 z-[100] ease-in duration-300'}>
+        <div style={{ backgroundColor: navBg }} className={shadow ? 'fixed w-full h-20 shadow-xl z-[20] ease-in duration-300' :
+            'fixed w-full h-20 z-[20] ease-in duration-300'}>
             <div className='flex justify-between items-center w-full h-full px-1 sm:px-5'>
                 <Link href='/'>
                     <div><Image className="cursor-pointer" src='/assets/lux-head.png' width='70' height='50' /></div>
@@ -66,9 +65,6 @@ function Navbar({ smallText, lang }) {
                         </li>
                         <li className='ml-10 text-sm uppercase hover:text-[#5651e5]'>
                             <Link href='/#projects'>{link.Projects}</Link>
-                        </li>
-                        <li className='ml-10 text-sm uppercase hover:text-[#5651e5]'>
-                            <Link href='/'>{link.Resume}</Link>
                         </li>
                         <li className='ml-10 text-sm uppercase hover:text-[#5651e5]'>
                             <Link href='/#contact'>{link.Contact}</Link>
