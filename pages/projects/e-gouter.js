@@ -18,13 +18,13 @@ function EGouter() {
             <div className="max-w-[1240px] mx-auto p-2 grid md:grid-cols-5 gap-8 pt-8">
                 <div className="col-span-4">
                     <h2>Déscription</h2>
-                    <p className="my-5">C'est un projet proposer par notre enseignant pour valider notre module Programmation mobile.
-                        Cette application mobile permet de rechercher puis faire des commandes dans 4 réstaurants situé à Antananarivo.
+                    <p className="my-5">C'est un projet proposé par notre enseignant pour valider notre module Programmation mobile.
+                        Cette application mobile permet faire des recherches et de commander dans 4 réstaurants situé à Antananarivo.
                         Elle possede 3 menus dans la bare de navigation, le premier menu en forme de maison sert a rechercher et a commander des plats
-                        , le deuxième sert à afficher les historiques de commandes, et le troisième et dérnière sert à afficher l'historique journalières.
+                        , le deuxième sert à afficher les historiques de commandes, et le troisième et le dérnier sert à afficher l'historique journalière.
                     </p>
                     <button className="px-8 py-2 mt-4 mr-8 bg-gray-400 rounded-full shadow-xl shadow-black">App</button>
-                    <button className="px-8 py-2 mt-4 ">Code</button>
+                    <button className="px-8 py-2 mt-4 mr-8 bg-gray-400 rounded-full shadow-xl shadow-black">Code</button>
                 </div>
                 <div className="col-span-4 md:col-span-1 shadow-xl shadow-gray-400 rounded-xl p-4">
                     <div className="p-2">

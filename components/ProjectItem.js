@@ -10,9 +10,11 @@ function ProjectItem({ titre, descri, bgImg, url }) {
                 <h3 className="text-2xl text-white tracking-wider text-center">{titre}</h3>
                 <p className="pb-4 pt-2 text-white text-center">{descri}</p>
                 <Link href={url}>
-                    <p className="text-center py-3 px-4 rounded-lg bg-white text-gray-700 font-bold text-lg cursor-pointer">
-                        Plus d'info
-                    </p>
+                    <a>
+                        <p className="text-center py-3 px-4 rounded-lg bg-white text-gray-700 font-bold text-lg cursor-pointer">
+                            Plus d'info
+                        </p>
+                    </a>
                 </Link>
             </div>
         </div>
