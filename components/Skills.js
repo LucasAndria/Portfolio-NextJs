@@ -14,10 +14,10 @@ function Skills({ lang }) {
                     <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
                         <div className="grid grid-cols-2 gap-4 justify-center items-center">
                             <div className="m-auto">
-                                <Image src='/assets/skills/html.png' width='64px' height='64px' alt="HTML Image" />
+                                <Image src='/assets/skills/javascript.png' width='64px' height='64px' alt="HTML Image" />
                             </div>
                             <div className="flex flex-col items-center justify-center">
-                                <h3>HTML</h3>
+                                <h3>Javascript</h3>
                             </div>
                         </div>
                     </div>
@@ -25,10 +25,21 @@ function Skills({ lang }) {
                     <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
                         <div className="grid grid-cols-2 gap-4 justify-center items-center">
                             <div className="m-auto">
-                                <Image src='/assets/skills/css.png' width='64px' height='64px' alt="HTML Image" />
+                                <Image src='/assets/skills/react.png' width='64px' height='64px' alt="HTML Image" />
                             </div>
                             <div className="flex flex-col items-center justify-center">
-                                <h3>CSS</h3>
+                                <h3>ReactJs</h3>
+                            </div>
+                        </div>
+                    </div>
+                    {/* 2 */}
+                    <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
+                        <div className="grid grid-cols-2 gap-4 justify-center items-center">
+                            <div className="m-auto">
+                                <Image src='/assets/skills/nextjs.png' width='64px' height='64px' alt="HTML Image" />
+                            </div>
+                            <div className="flex flex-col items-center justify-center">
+                                <h3>NextJs</h3>
                             </div>
                         </div>
                     </div>
@@ -39,7 +50,18 @@ function Skills({ lang }) {
                                 <Image src='/assets/skills/html.png' width='64px' height='64px' alt="HTML Image" />
                             </div>
                             <div className="flex flex-col items-center justify-center">
-                                <h3>HTML</h3>
+                                <h3>React Native</h3>
+                            </div>
+                        </div>
+                    </div>
+                    {/* 3 */}
+                    <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
+                        <div className="grid grid-cols-2 gap-4 justify-center items-center">
+                            <div className="m-auto">
+                                <Image src='/assets/skills/html.png' width='64px' height='64px' alt="HTML Image" />
+                            </div>
+                            <div className="flex flex-col items-center justify-center">
+                                <h3>Python</h3>
                             </div>
                         </div>
                     </div>
@@ -47,10 +69,10 @@ function Skills({ lang }) {
                     <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
                         <div className="grid grid-cols-2 gap-4 justify-center items-center">
                             <div className="m-auto">
-                                <Image src='/assets/skills/html.png' width='64px' height='64px' alt="HTML Image" />
+                                <Image src='/assets/skills/firebase.png' width='64px' height='64px' alt="HTML Image" />
                             </div>
                             <div className="flex flex-col items-center justify-center">
-                                <h3>HTML</h3>
+                                <h3>Firebase</h3>
                             </div>
                         </div>
                     </div>
@@ -58,10 +80,10 @@ function Skills({ lang }) {
                     <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
                         <div className="grid grid-cols-2 gap-4 justify-center items-center">
                             <div className="m-auto">
-                                <Image src='/assets/skills/html.png' width='64px' height='64px' alt="HTML Image" />
+                                <Image src='/assets/skills/tailwind.png' width='64px' height='64px' alt="HTML Image" />
                             </div>
                             <div className="flex flex-col items-center justify-center">
-                                <h3>HTML</h3>
+                                <h3>Tailwind CSS</h3>
                             </div>
                         </div>
                     </div>
@@ -69,10 +91,10 @@ function Skills({ lang }) {
                     <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
                         <div className="grid grid-cols-2 gap-4 justify-center items-center">
                             <div className="m-auto">
-                                <Image src='/assets/skills/html.png' width='64px' height='64px' alt="HTML Image" />
+                                <Image src='/assets/skills/github.png' width='64px' height='64px' alt="HTML Image" />
                             </div>
                             <div className="flex flex-col items-center justify-center">
-                                <h3>HTML</h3>
+                                <h3>Github</h3>
                             </div>
                         </div>
                     </div>
@@ -83,7 +105,7 @@ function Skills({ lang }) {
                                 <Image src='/assets/skills/html.png' width='64px' height='64px' alt="HTML Image" />
                             </div>
                             <div className="flex flex-col items-center justify-center">
-                                <h3>HTML</h3>
+                                <h3>Blender</h3>
                             </div>
                         </div>
                     </div>
@@ -94,7 +116,7 @@ function Skills({ lang }) {
                                 <Image src='/assets/skills/html.png' width='64px' height='64px' alt="HTML Image" />
                             </div>
                             <div className="flex flex-col items-center justify-center">
-                                <h3>HTML</h3>
+                                <h3>Photoshop</h3>
                             </div>
                         </div>
                     </div>

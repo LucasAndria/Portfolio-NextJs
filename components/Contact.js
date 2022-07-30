@@ -18,12 +18,12 @@ function Contact({ lang }) {
                                 <img className="rounded-xl hover:scale-105 ease-in duration-300" src="/assets/me.jpeg" alt="/" />
                             </div>
                             <div>
-                                <h2 className="py-2">Name here</h2>
+                                <h2 className="py-2">Lucas ANDRIANARIJAONA</h2>
                                 <p>Developeur web Junior</p>
-                                <p className="py-4">I am available for freelance or full-time position. Contact me and let's talk.</p>
+                                <p className="py-4">Je suis à votre disposition pour des projets ou pour un emploie. Contacter moi.</p>
                             </div>
                             <div>
-                                <p className="uppercase pt-8">Connect with me</p>
+                                {/* <p className="uppercase pt-8">Lien : </p> */}
                                 <div className="flex items-center justify-between py-4">
                                     <div className="group rounded-full shadow-lg shadow-gray-400 p-[18px] lg:p-6 cursor-pointer hover:scale-110 ease-in duration-300">
                                         <FaLinkedinIn className="group-hover:animate-wiggle lg:w-5 lg:h-5 2xl:w-6 2xl:h-6 ease-in duration-300 " />

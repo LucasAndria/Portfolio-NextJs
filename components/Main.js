@@ -5,16 +5,18 @@ import { FaGithub, FaLinkedinIn } from "react-icons/fa"
 function Main({ smallText, lang }) {
 
     const greeting = lang === 'fr' ? (
-        <h2 className="py-4 text-gray-700">Salut, mon nom est <span className="text-[#5651e5]">Lucas</span></h2>) : (
+        <h2 className="py-4 text-gray-700">Mon nom est <span className="text-[#5651e5]">Lucas</span></h2>) : (
         <h2 className="py-4 text-gray-700">Hi, I'm <span className="text-[#5651e5]">Lucas</span></h2>)
 
     const brefPresentation = lang === 'fr' ? (
         <h2 className="py-4 text-gray-700">Un Développeur Web Junior</h2>) : (
         <h2 className="py-4 text-gray-700">A Junior web developer</h2>)
 
-    const presentation = lang === 'fr' ? (
-        <p className="py-4 text-gray-600 max-w-[70%] m-auto lg:text-lg ease-in duration-300">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Hic maiores cumque eius sed consectetur mollitia adipisci tempore modi vero? Molestias iusto eius officiis rem, illum perferendis soluta perspiciatis nam! Itaque.</p>) : (
-        <p className="py-4 text-gray-600 max-w-[70%] m-auto lg:text-lg ease-in duration-300">Lorem ipsum mais en english dolor sit amet consectetur, adipisicing elit. Hic maiores cumque eius sed consectetur mollitia adipisci tempore modi vero? Molestias iusto eius officiis rem, illum perferendis soluta perspiciatis nam! Itaque.</p>)
+    const presentation = lang === 'fr' ? (''
+        // <p className="py-4 text-gray-600 max-w-[70%] m-auto lg:text-lg ease-in duration-300">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Hic maiores cumque eius sed consectetur mollitia adipisci tempore modi vero? Molestias iusto eius officiis rem, illum perferendis soluta perspiciatis nam! Itaque.</p>
+    ) : (''
+        // <p className="py-4 text-gray-600 max-w-[70%] m-auto lg:text-lg ease-in duration-300">Lorem ipsum mais en english dolor sit amet consectetur, adipisicing elit. Hic maiores cumque eius sed consectetur mollitia adipisci tempore modi vero? Molestias iusto eius officiis rem, illum perferendis soluta perspiciatis nam! Itaque.</p>
+    )
 
     return (
         <div id='home' className="w-full h-screen text-center">
