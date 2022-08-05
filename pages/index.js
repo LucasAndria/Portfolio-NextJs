@@ -5,21 +5,20 @@ import Main from "../components/Main";
 import Projects from "../components/Projects";
 import Skills from "../components/Skills";
 
-export default function Home({ lang, smallText }) {
+export default function Home() {
 
-  const title = lang === 'fr' ? ('Lucas | Développeur junior') : ('Lucas | Junior developer')
 
   return (
     <div>
       <Head>
-        <title>{title}</title>
+        <title>Lucas | Développeur junior</title>
         <link ref='icon' href="/assets/lux-head.png" />
       </Head>
-      <Main smallText={smallText} lang={lang} />
-      <About lang={lang} />
-      <Skills lang={lang} />
-      <Projects lang={lang} />
-      <Contact lang={lang} />
+      <Main />
+      <About />
+      <Skills />
+      <Projects />
+      <Contact />
     </div>
   )
 }

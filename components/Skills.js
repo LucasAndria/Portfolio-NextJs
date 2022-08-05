@@ -1,6 +1,6 @@
 import Image from "next/image"
 
-function Skills({ lang }) {
+function Skills() {
     return (
         <div id='skills' className="w-full lg:h-screen p-2 pt-24">
             <div className="max-w-[1240px] mx-auto flex flex-col h-full">

@@ -4,7 +4,7 @@ import { BsFillPersonLinesFill } from "react-icons/bs"
 import { FaGithub, FaLinkedinIn } from "react-icons/fa"
 import { HiOutlineChevronDoubleUp } from 'react-icons/hi'
 
-function Contact({ lang }) {
+function Contact() {
     return (
         <div id='contact' className="w-full lg:h-screen">
             <div className="max-w-[1240px] m-auto px-2 py-24 w-full">
@@ -14,9 +14,9 @@ function Contact({ lang }) {
                     {/* left */}
                     <div className="col-span-3 lg:col-span-2 w-full shadow-xl shadow-gray-400 rounded-xl p-4">
                         <div className="lg:p-4 h-full">
-                            <div>
+                            {/* <div>
                                 <img className="rounded-xl hover:scale-105 ease-in duration-300" src="/assets/me.jpeg" alt="/" />
-                            </div>
+                            </div> */}
                             <div>
                                 <h2 className="py-2">Lucas ANDRIANARIJAONA</h2>
                                 <p>Developeur web Junior</p>

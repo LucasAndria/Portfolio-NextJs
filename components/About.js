@@ -1,7 +1,7 @@
 import Image from 'next/image'
 import React from 'react'
 
-function About({ lang }) {
+function About() {
     return (
         <div id='about' className='w-full md:h-screen p-2 flex items-center pt-24'>
             <div className='max-w-[1240px] m-auto md:grid grid-cols-3 gap-8'>

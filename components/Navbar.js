@@ -7,7 +7,7 @@ import { useEffect, useState } from "react";
 import { useRouter } from 'next/router'
 
 
-function Navbar({ smallText, lang }) {
+function Navbar() {
 
     const [nav, setNav] = useState(false)
     const [shadow, setShadow] = useState(false)
@@ -40,11 +40,8 @@ function Navbar({ smallText, lang }) {
         window.addEventListener('scroll', handleShadow)
     }, [])
 
-    const link = (lang === 'fr') ? (
-        { Home: 'Accueil', About: 'A propos', Skills: 'Compétences', Projects: 'Projets', Resume: 'Résumé', Contact: 'Contact' }
-    ) : (
-        { Home: 'Home', About: 'About', Skills: 'Skills', Projects: 'Projects', Resume: 'Resume', Contact: 'Contact' }
-    )
+    const link = { Home: 'Accueil', About: 'A propos', Skills: 'Compétences', Projects: 'Projets', Resume: 'Résumé', Contact: 'Contact' }
+
     return (
         <div style={{ backgroundColor: navBg }} className={shadow ? 'fixed w-full h-20 shadow-xl z-[20] ease-in duration-300' :
             'fixed w-full h-20 z-[20] ease-in duration-300'}>
@@ -97,11 +94,8 @@ function Navbar({ smallText, lang }) {
                         </div>
                         <div className="border-b border-gray-300 my-4">
                             <p className="w-[85%] md:w-[90%] py-4">
-                                {lang === 'fr' ? (
-                                    'Bienvenue !'
-                                ) : (
-                                    'Welcome to my portefolio !'
-                                )}</p>
+                                Bienvenue dans mon portefolio!
+                            </p>
                         </div>
                     </div>
                     <div className="ml-[2%] w-[96%] py-4 flex flex-col">
@@ -124,7 +118,7 @@ function Navbar({ smallText, lang }) {
                         </ul>
                         <div className="pt-40">
                             <p className="uppercase tracking-widest text-[#5651e5] text-sm md:text-[0.92rem]">
-                                {smallText}
+                                Mes liens et contact
                             </p>
                             <div className='flex items-center justify-between my-4 w-[80%]'>
                                 <div className="group rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300">
@@ -136,6 +130,12 @@ function Navbar({ smallText, lang }) {
                                 <div className="group rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300">
                                     <AiOutlineMail className="group-hover:animate-wiggle" />
                                 </div>
+                                {/* click anito dia manao copie any am presse papier hoe
+                                    nom : ANDRIANARIJAONA Lucas
+                                    mail : lucasandria01@gmail.com 
+                                    numéro : 0342052988
+                                    
+                                */}
                                 <div className="group rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300">
                                     <BsFillPersonLinesFill className="group-hover:animate-wiggle" />
                                 </div>
