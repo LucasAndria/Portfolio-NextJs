@@ -9,6 +9,8 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@react-three/cannon": "^6.3.0",
+    "@react-three/drei": "^9.19.6",
     "@react-three/fiber": "^8.2.1",
     "@splinetool/react-spline": "^2.2.1",
     "@splinetool/runtime": "^0.9.90",
