@@ -17,8 +17,12 @@ function Main() {
                     <h2 className="py-4 text-gray-700">Un Développeur Web Junior</h2>
 
                     <p className="py-4 text-gray-600 max-w-[70%] m-auto lg:text-lg ease-in duration-300">
-                        Situé à Antananarivo. Vous pouvez me rejoindre ici
+                        Situé à Antananarivo.
                     </p>
+                    {/* <p className="text-gray-600 max-w-[70%] m-auto lg:text-lg ease-in duration-300">
+                        Vous pouvez me rejoindre ici
+                    </p> */}
+
 
                     <div className="flex items-center justify-between max-w-[300px] sm:max-w-[400px] lg:max-w-[500px] 2xl:max-w-[600px] m-auto py-4 ease-in duration-300">
                         <div className="group rounded-full shadow-lg shadow-gray-400 p-[18px] lg:p-6 cursor-pointer hover:scale-110 ease-in duration-300">

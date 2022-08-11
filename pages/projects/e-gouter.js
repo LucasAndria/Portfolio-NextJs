@@ -19,9 +19,9 @@ function EGouter() {
                 <div className="col-span-4">
                     <h2>Déscription</h2>
                     <p className="my-5">C'est un projet proposé par notre enseignant pour valider notre module Programmation mobile.
-                        Cette application mobile permet faire des recherches et de commander dans 4 réstaurants situé à Antananarivo.
-                        Elle possede 3 menus dans la bare de navigation, le premier menu en forme de maison sert a rechercher et a commander des plats
-                        , le deuxième sert à afficher les historiques de commandes, et le troisième et le dérnier sert à afficher l'historique journalière.
+                        Cette application mobile permet de faire des recherches et de commander dans 4 réstaurants situé à Antananarivo.
+                        Elle possede 3 menus dans la bare de navigation, le premier menu est pour faire des recherches et commander des plats
+                        , le deuxième sert à afficher les historiques de commandes, et le dérnier sert à afficher l'historique journalière.
                     </p>
                     <button className="px-8 py-2 mt-4 mr-8 bg-gray-400 rounded-full shadow-xl shadow-black">App</button>
                     <button className="px-8 py-2 mt-4 mr-8 bg-gray-400 rounded-full shadow-xl shadow-black">Code</button>
