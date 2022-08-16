@@ -10,7 +10,8 @@ function Projects() {
                 <p className="text-xl tracking-widest uppercase text-[#5651e5]">Projets</p>
                 <h2 className="py-4">{"Ce que j'ai créer"}</h2>
                 <div className="grid md:grid-cols-2 gap-8">
-                    <ProjectItem titre='E-Gouter-Za' descri='une application mobile qui permet de faire des commandes' bgImg={bg} url='/projects/e-gouter' />
+                    <ProjectItem titre='E-Gouter-Za' descri='Une application mobile qui permet de faire des commandes.' bgImg={bg} url='/projects/e-gouter' />
+                    <ProjectItem titre='The rescues' descri="Un jeu platformer que l'on a créer en 24h pour la gamejam+ 2020" bgImg={bg} url='/projects/e-gouter' />
                 </div>
             </div>
         </div>

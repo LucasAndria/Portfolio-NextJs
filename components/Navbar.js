@@ -117,8 +117,8 @@ function Navbar() {
                                 <li onClick={() => toggleNav(false)} className="py-4 text-sm" >{link.Contact}</li>
                             </Link>
                         </ul>
-                        <div className="pt-40">
-                            <p className="uppercase tracking-widest text-[#5651e5] text-sm md:text-[0.92rem]">
+                        <div className="pt-36">
+                            <p className="uppercase tracking-widest ml-1 text-[#5651e5] text-sm md:text-[0.92rem]">
                                 Mes liens et contact
                             </p>
                             <div className='flex items-center justify-between my-4 w-[80%]'>

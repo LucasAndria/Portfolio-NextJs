@@ -24,8 +24,16 @@ function EGouter() {
                         Elle possede 3 menus dans la bare de navigation, le premier menu est pour faire des recherches et commander des plats
                         , le deuxième sert à afficher les historiques de commandes, et le dérnier sert à afficher {"l'historique"} journalière.
                     </p>
-                    <button className="px-8 py-2 mt-4 mr-8 bg-gray-400 rounded-full shadow-xl shadow-black">App</button>
-                    <button className="px-8 py-2 mt-4 mr-8 bg-gray-400 rounded-full shadow-xl shadow-black">Code</button>
+                    <Link href='/assets/Projects/E-gouter/E-Gouter-Za.apk'>
+                        <a>
+                            <button className="bg-transparent mt-4 hover:shadow-xl hover:scale-110 hover:bg-gray-400 text-gray-700 cursor-pointer font-semibold hover:text-white py-2 px-4 border border-gray-400 hover:border-transparent rounded-xl ease-in-out duration-200">App</button>
+                        </a>
+                    </Link>
+                    <Link href='https://github.com/LucasAndria'>
+                        <a target="_blank">
+                            <button className="ml-5 bg-transparent hover:shadow-xl hover:scale-110 mt-4 hover:bg-gray-400 text-gray-700 cursor-pointer font-semibold hover:text-white py-2 px-4 border border-gray-400 hover:border-transparent rounded-xl  ease-in-out duration-200">Code</button>
+                        </a>
+                    </Link>
                 </div>
                 <div className="col-span-4 md:col-span-1 shadow-xl shadow-gray-400 rounded-xl p-4">
                     <div className="p-2">

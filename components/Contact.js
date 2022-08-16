@@ -78,7 +78,7 @@ function Contact() {
                                     <label className="uppercase text-sm py-2">Message</label>
                                     <textarea className="border-2 rounded-lg p-3 border-gray-300" rows='10' name='message'></textarea>
                                 </div>
-                                <input type="submit" value='Send Message' className="w-full p-4 bg-transparent mt-4 hover:bg-[#5651e5] text-[#5651e5] font-semibold hover:text-white py-2 px-4 border border-[#5651e5] hover:border-transparent rounded" />
+                                <input type="submit" value='Send Message' className="w-full bg-transparent mt-4 hover:bg-[#5651e5] text-[#5651e5] cursor-pointer font-semibold hover:text-white py-2 px-4 border border-[#5651e5] hover:border-transparent rounded" />
                             </form>
                         </div>
                     </div>
