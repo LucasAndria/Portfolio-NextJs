@@ -4,8 +4,25 @@ import { BsFillPersonLinesFill } from "react-icons/bs"
 import { FaGithub, FaLinkedinIn } from "react-icons/fa"
 import { HiOutlineChevronDoubleUp } from 'react-icons/hi'
 import { CVButton, GithubButton, LinkedInButton, MailButton } from "./links/Button"
+import emailjs from '@emailjs/browser';
+import { useRef } from "react"
 
 function Contact() {
+
+    const form = useRef();
+
+    function sendEmail(e) {
+        e.preventDefault();
+
+        emailjs.sendForm('service_a4d75pp', 'portfolio_id', form.current, 'ab24u_EApe1H27i4f')
+            .then((result) => {
+                console.log(result.text);
+            }, (error) => {
+                console.log(error.text);
+            });
+
+        e.target.reset()
+    }
     return (
         <div id='contact' className="w-full lg:h-screen">
             <div className="max-w-[1240px] m-auto px-2 py-24 w-full">
@@ -38,30 +55,30 @@ function Contact() {
 
                     <div className="col-span-3 w-full h-auto shadow-xl shadow-gray-400 rounded-xl lg:p-4">
                         <div className="p-4">
-                            <form>
+                            <form ref={form} onSubmit={sendEmail}>
                                 <div className="grid md:grid-cols-2 gap-4 w-full py-2">
                                     <div className="flex flex-col">
                                         <label className="uppercase text-sm py-2">Nom</label>
-                                        <input className='border-2 rounded-lg p-3 flex border-gray-300' type="text" />
+                                        <input className='border-2 rounded-lg p-3 flex border-gray-300' type="text" name='nom' />
                                     </div>
                                     <div className="flex flex-col">
                                         <label className="uppercase text-sm py-2">Numero téléphone</label>
-                                        <input className='border-2 rounded-lg p-3 flex border-gray-300' type="text" />
+                                        <input className='border-2 rounded-lg p-3 flex border-gray-300' type="text" name='numero' />
                                     </div>
                                 </div>
                                 <div className="flex flex-col py-2">
                                     <label className="uppercase text-sm py-2">Email</label>
-                                    <input className='border-2 rounded-lg p-3 flex border-gray-300' type="email" />
+                                    <input className='border-2 rounded-lg p-3 flex border-gray-300' type="email" name='email' />
                                 </div>
                                 <div className="flex flex-col py-2">
                                     <label className="uppercase text-sm py-2">Objet</label>
-                                    <input className='border-2 rounded-lg p-3 flex border-gray-300' type="text" />
+                                    <input className='border-2 rounded-lg p-3 flex border-gray-300' type="text" name='objet' />
                                 </div>
                                 <div className="flex flex-col py-2">
                                     <label className="uppercase text-sm py-2">Message</label>
-                                    <textarea className="border-2 rounded-lg p-3 border-gray-300" rows='10'></textarea>
+                                    <textarea className="border-2 rounded-lg p-3 border-gray-300" rows='10' name='message'></textarea>
                                 </div>
-                                <button className="w-full p-4 text-gray-100 mt-4">Send Message</button>
+                                <input type="submit" value='Send Message' className="w-full p-4 bg-transparent mt-4 hover:bg-[#5651e5] text-[#5651e5] font-semibold hover:text-white py-2 px-4 border border-[#5651e5] hover:border-transparent rounded" />
                             </form>
                         </div>
                     </div>
