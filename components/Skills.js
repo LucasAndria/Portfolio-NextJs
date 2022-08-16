@@ -7,7 +7,7 @@ function Skills() {
                 <p className="text-xl tracking-widest uppercase text-[#5651e5]">
                     Compétences
                 </p>
-                <h2 className="py-4">Les téchnologies que j'utilise</h2>
+                <h2 className="py-4">Les téchnologies que {"j'utilise"}</h2>
                 <div className="grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
                     {/* tokony map */}
                     {/* 1 */}

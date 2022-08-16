@@ -12,7 +12,7 @@ function ProjectItem({ titre, descri, bgImg, url }) {
                 <Link href={url}>
                     <a>
                         <p className="text-center py-3 px-4 rounded-lg bg-white text-gray-700 font-bold text-lg cursor-pointer">
-                            Plus d'info
+                            {"Plus d'info"}
                         </p>
                     </a>
                 </Link>
