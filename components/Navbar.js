@@ -5,6 +5,7 @@ import { FaGithub, FaLinkedinIn } from 'react-icons/fa';
 import { BsFillPersonLinesFill } from 'react-icons/bs';
 import { useEffect, useState } from "react";
 import { useRouter } from 'next/router'
+import { CVButton, GithubButton, LinkedInButton, MailButton } from "./links/Button";
 
 
 function Navbar() {
@@ -47,7 +48,7 @@ function Navbar() {
             'fixed w-full h-20 z-[20] ease-in duration-300'}>
             <div className='flex justify-between items-center w-full h-full px-1 sm:px-5'>
                 <Link href='/'>
-                    <div><Image className="cursor-pointer" src='/assets/lux-head.png' width='70' height='50' /></div>
+                    <a><Image className="cursor-pointer" src='/assets/lux-head.png' width='70' height='50' /></a>
                 </Link>
                 <div className="mx-[1%]">
                     <ul style={{ color: linkColor }} className='hidden lg:flex'>
@@ -121,7 +122,11 @@ function Navbar() {
                                 Mes liens et contact
                             </p>
                             <div className='flex items-center justify-between my-4 w-[80%]'>
-                                <div className="group rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300">
+                                <LinkedInButton />
+                                <GithubButton />
+                                <MailButton />
+                                <CVButton />
+                                {/* <div className="group rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300">
                                     <FaLinkedinIn className="group-hover:animate-wiggle" />
                                 </div>
                                 <div className="group rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300">
@@ -130,15 +135,9 @@ function Navbar() {
                                 <div className="group rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300">
                                     <AiOutlineMail className="group-hover:animate-wiggle" />
                                 </div>
-                                {/* click anito dia manao copie any am presse papier hoe
-                                    nom : ANDRIANARIJAONA Lucas
-                                    mail : lucasandria01@gmail.com 
-                                    numéro : 0342052988
-                                    
-                                */}
                                 <div className="group rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300">
                                     <BsFillPersonLinesFill className="group-hover:animate-wiggle" />
-                                </div>
+                                </div> */}
                             </div>
 
                         </div>

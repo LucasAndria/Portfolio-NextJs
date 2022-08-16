@@ -3,6 +3,7 @@ import { AiOutlineMail } from "react-icons/ai"
 import { BsFillPersonLinesFill } from "react-icons/bs"
 import { FaGithub, FaLinkedinIn } from "react-icons/fa"
 import { HiOutlineChevronDoubleUp } from 'react-icons/hi'
+import { CVButton, GithubButton, LinkedInButton, MailButton } from "./links/Button"
 
 function Contact() {
     return (
@@ -14,9 +15,9 @@ function Contact() {
                     {/* left */}
                     <div className="col-span-3 lg:col-span-2 w-full shadow-xl shadow-gray-400 rounded-xl p-4">
                         <div className="lg:p-4 h-full">
-                            {/* <div>
-                                <img className="rounded-xl hover:scale-105 ease-in duration-300" src="/assets/me.jpeg" alt="/" />
-                            </div> */}
+                            <div>
+                                <img className="rounded-xl hover:scale-105 ease-in duration-300 mb-5" src="/assets/Contacter.png" alt="/" />
+                            </div>
                             <div>
                                 <h2 className="py-2">Lucas ANDRIANARIJAONA</h2>
                                 <p>Developeur web Junior</p>
@@ -25,18 +26,10 @@ function Contact() {
                             <div>
                                 {/* <p className="uppercase pt-8">Lien : </p> */}
                                 <div className="flex items-center justify-between py-4">
-                                    <div className="group rounded-full shadow-lg shadow-gray-400 p-[18px] lg:p-6 cursor-pointer hover:scale-110 ease-in duration-300">
-                                        <FaLinkedinIn className="group-hover:animate-wiggle lg:w-5 lg:h-5 2xl:w-6 2xl:h-6 ease-in duration-300 " />
-                                    </div>
-                                    <div className="group rounded-full shadow-lg shadow-gray-400 p-[18px] lg:p-6 cursor-pointer hover:scale-110 ease-in duration-300">
-                                        <FaGithub className="group-hover:animate-wiggle lg:w-5 lg:h-5 2xl:w-6 2xl:h-6 ease-in duration-300" />
-                                    </div>
-                                    <div className="group rounded-full shadow-lg shadow-gray-400 p-[18px] lg:p-6 cursor-pointer hover:scale-110 ease-in duration-300">
-                                        <AiOutlineMail className="group-hover:animate-wiggle lg:w-5 lg:h-5 2xl:w-6 2xl:h-6 ease-in duration-300" />
-                                    </div>
-                                    <div className="group rounded-full shadow-lg shadow-gray-400 p-[18px] lg:p-6 cursor-pointer hover:scale-110 ease-in duration-300">
-                                        <BsFillPersonLinesFill className="group-hover:animate-wiggle lg:w-5 lg:h-5 2xl:w-6 2xl:h-6 ease-in duration-300" />
-                                    </div>
+                                    <LinkedInButton />
+                                    <GithubButton />
+                                    {/* <MailButton /> */}
+                                    <CVButton />
                                 </div>
                             </div>
                         </div>
