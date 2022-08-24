@@ -24,8 +24,8 @@ function TheRescues() {
                         ont des missions spécialiser pour leurs capacités alors il faut savoir bien switcher entre les deux. Le but de ce jeu est
                         de capturer les animaux capturer dans des cages.
                     </p>
-                    <Link href='/assets/Projects/the-rescues/the_rescues_windows.zip'>
-                        <a>
+                    <Link href='https://mega.nz/file/3242iZSI#8zVqRJMhG1ANxNfDV82DxF6UaOg1TDY-aWdMMwCn2TQ'>
+                        <a target="_blank">
                             <button className="bg-transparent mt-4 hover:shadow-xl hover:scale-110 hover:bg-gray-400 text-gray-700 cursor-pointer font-semibold hover:text-white py-2 px-4 border border-gray-400 hover:border-transparent rounded-xl ease-in-out duration-200">
                                 App
                             </button>

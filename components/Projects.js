@@ -2,7 +2,6 @@ import ProjectItem from "./ProjectItem"
 import bg_egouter from '../public/assets/Projects/e-gouter/e-gouter.jpg'
 import bg_todolist from '../public/assets/Projects/todo-list/capture.png'
 import bg_rescues from '../public/assets/Projects/the-rescues/bg-1.png'
-import VanillaTilt from 'vanilla-tilt';
 
 function Projects() {
 
