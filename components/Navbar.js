@@ -47,7 +47,7 @@ function Navbar() {
             'fixed w-full h-20 z-[20] ease-in duration-300'}>
             <div className='flex justify-between items-center w-full h-full px-1 sm:px-5'>
                 <Link href='/'>
-                    <a><Image className="cursor-pointer" src='/assets/lux-head.png' width='70' height='50' /></a>
+                    <a><Image className="cursor-pointer" src='/assets/lux-head.png' width='70' height='50' alt="logo" /></a>
                 </Link>
                 <div className="mx-[1%]">
                     <ul style={{ color: linkColor }} className='hidden lg:flex'>
@@ -85,7 +85,7 @@ function Navbar() {
                     <div>
                         <div className="flex my-2 items-center justify-between">
                             <Link href='/'>
-                                <div><Image onClick={() => toggleNav(false)} src='/assets/lux-head.png' width='60' height='35' className="cursor-pointer" /></div>
+                                <div><Image onClick={() => toggleNav(false)} src='/assets/lux-head.png' width='60' height='35' className="cursor-pointer" alt="logo" /></div>
                             </Link>
                             <div onClick={() => toggleNav(false)} className={nav ? "rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer ease-in-out duration-500" : 'hidden'}>
                                 <AiOutlineClose />
