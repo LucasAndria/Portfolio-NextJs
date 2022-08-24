@@ -20,7 +20,7 @@ function TheRescues() {
                     <h2>Déscription</h2>
                     <p className="my-5">
                         Ce jeu a été fait en 24h pour notre première création de jeu video et notre première participation au gameJam en 2020,
-                        C'est un jeu où l'on peut choisir d'incarner une jeune hero ou un singe pour mener à bien la mission. Les deux personnages
+                        {"C'est"} un jeu où {"l'on"} peut choisir {"d'incarner"} une jeune hero ou un singe pour mener à bien la mission. Les deux personnages
                         ont des missions spécialiser pour leurs capacités alors il faut savoir bien switcher entre les deux. Le but de ce jeu est
                         de capturer les animaux capturer dans des cages.
                     </p>
