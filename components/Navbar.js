@@ -5,7 +5,6 @@ import { FaGithub, FaLinkedinIn } from 'react-icons/fa';
 import { BsFillPersonLinesFill } from 'react-icons/bs';
 import { useEffect, useState } from "react";
 import { useRouter } from 'next/router'
-import { CVButton, GithubButton, LinkedInButton, MailButton } from "./links/Button";
 
 
 function Navbar() {
@@ -122,22 +121,26 @@ function Navbar() {
                                 Mes liens et contact
                             </p>
                             <div className='flex items-center justify-between my-4 w-[80%]'>
-                                <LinkedInButton />
-                                <GithubButton />
-                                <MailButton />
-                                <CVButton />
-                                {/* <div className="group rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300">
-                                    <FaLinkedinIn className="group-hover:animate-wiggle" />
-                                </div>
-                                <div className="group rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300">
-                                    <FaGithub className="group-hover:animate-wiggle" />
-                                </div>
-                                <div className="group rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300">
-                                    <AiOutlineMail className="group-hover:animate-wiggle" />
-                                </div>
-                                <div className="group rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300">
-                                    <BsFillPersonLinesFill className="group-hover:animate-wiggle" />
-                                </div> */}
+                                <Link href="https://www.linkedin.com/in/lucas-andrianarijaona-7039641b8/" passHref={true}>
+                                    <a target="_blank" className="group rounded-full shadow-lg shadow-gray-400 p-3 sm:p-[18px] cursor-pointer hover:scale-105 ease-in duration-300">
+                                        <FaLinkedinIn className="group-hover:animate-wiggle" />
+                                    </a>
+                                </Link>
+                                <Link href="https://github.com/LucasAndria" passHref={true}>
+                                    <a target="_blank" className="group rounded-full shadow-lg shadow-gray-400 p-3 sm:p-[18px] cursor-pointer hover:scale-105 ease-in duration-300">
+                                        <FaGithub className="group-hover:animate-wiggle" />
+                                    </a>
+                                </Link>
+                                <Link href="/#contact" passHref={true}>
+                                    <a target="_blank" className="group rounded-full shadow-lg shadow-gray-400 p-3 sm:p-[18px] cursor-pointer hover:scale-105 ease-in duration-300">
+                                        <AiOutlineMail className="group-hover:animate-wiggle" />
+                                    </a>
+                                </Link>
+                                <Link href="/assets/Lucas Andrianarijaona 2022.pdf" passHref={true}>
+                                    <a target="_blank" className="group rounded-full shadow-lg shadow-gray-400 p-3 sm:p-[18px] cursor-pointer hover:scale-105 ease-in duration-300">
+                                        <BsFillPersonLinesFill className="group-hover:animate-wiggle" />
+                                    </a>
+                                </Link>
                             </div>
 
                         </div>
