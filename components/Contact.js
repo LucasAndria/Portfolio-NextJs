@@ -6,6 +6,7 @@ import { HiOutlineChevronDoubleUp } from 'react-icons/hi'
 import { CVButton, GithubButton, LinkedInButton, MailButton } from "./links/Button"
 import emailjs from '@emailjs/browser';
 import { useRef } from "react"
+import Image from "next/image"
 
 function Contact() {
 
@@ -33,7 +34,7 @@ function Contact() {
                     <div className="col-span-3 lg:col-span-2 w-full shadow-xl shadow-gray-400 rounded-xl p-4">
                         <div className="lg:p-4 h-full">
                             <div>
-                                <img className="rounded-xl hover:scale-105 ease-in duration-300 mb-5" src="/assets/Contacter.png" alt="contact" />
+                                <Image className="rounded-xl hover:scale-105 ease-in duration-300 mb-5" layout='fill' src="/assets/Contacter.png" alt="contact" />
                             </div>
                             <div>
                                 <h2 className="py-2">Lucas ANDRIANARIJAONA</h2>
