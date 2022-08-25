@@ -1,7 +1,7 @@
 import ProjectItem from "./ProjectItem"
-import bg_egouter from "./assets/Projects/e-gouter/e-gouter.jpg"
-import bg_todolist from "./assets/Projects/todo-list/capture.png"
-import bg_rescues from "./assets/Projects/the-rescues/bg-1.png"
+import bg_egouter from "../public/assets/Projects/e-gouter/e-gouter.jpg"
+import bg_todolist from "../public/assets/Projects/todo-list/capture.png"
+import bg_rescues from "../public/assets/Projects/the-rescues/bg-1.png"
 
 function Projects() {
 
