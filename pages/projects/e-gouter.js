@@ -24,12 +24,12 @@ function EGouter() {
                         Elle possede 3 menus dans la bare de navigation, le premier menu est pour faire des recherches et commander des plats
                         , le deuxième sert à afficher les historiques de commandes, et le dérnier sert à afficher {"l'historique"} journalière.
                     </p>
-                    <Link href='https://mega.nz/file/H6ghiQ6D#ym8MpMl7I_gt5Ml6NVk8NN1DckgyKKu9ptGxcNQPZx0' passHref={true}>
+                    <Link href={'https://mega.nz/file/H6ghiQ6D#ym8MpMl7I_gt5Ml6NVk8NN1DckgyKKu9ptGxcNQPZx0'} passHref={true}>
                         <a target="_blank">
                             <button className="bg-transparent mt-4 hover:shadow-xl hover:scale-110 hover:bg-gray-400 text-gray-700 cursor-pointer font-semibold hover:text-white py-2 px-4 border border-gray-400 hover:border-transparent rounded-xl ease-in-out duration-200">App</button>
                         </a>
                     </Link>
-                    <Link href='https://github.com/LucasAndria/e-gouter-za' passHref={true}>
+                    <Link href={'https://github.com/LucasAndria/e-gouter-za'} passHref={true}>
                         <a target="_blank">
                             <button className="ml-5 bg-transparent hover:shadow-xl hover:scale-110 mt-4 hover:bg-gray-400 text-gray-700 cursor-pointer font-semibold hover:text-white py-2 px-4 border border-gray-400 hover:border-transparent rounded-xl  ease-in-out duration-200">Code</button>
                         </a>
