@@ -1,5 +1,5 @@
 import Image from "next/image"
-import bgImage from '../../public/assets/Projects/E-gouter/Fond.jpeg'
+import bgImage from '../../public/assets/Projects/e-gouter/Fond.jpeg'
 import { RiRadioButtonFill } from 'react-icons/ri'
 import Link from "next/link"
 
