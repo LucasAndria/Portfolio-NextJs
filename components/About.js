@@ -13,17 +13,17 @@ function About() {
                     </p> */}
                     <p className='py-2 text-gray-600'>
                         Un Développeur Web situé à Antananarivo.
-                        {"J'ai"} commence a apprendre la programmation, la modélisation et {"l'animation"} 3D en tant {"qu'autodidacte"}. Puis apres mon bacc {"j'ai"} décidé
-                        de suivre un cursus universitaire {"d'Intégration"} et Développement à {"l'université"} ESTI. On nous a initier à la programmation
+                        {"J'ai"} commencé à apprendre la programmation, la modélisation et {"l'animation"} 3D en tant {"qu'autodidacte"}. Puis après mon bacc {"j'ai"} décidé
+                        de suivre un cursus universitaire {"d'Intégration"} et Développement à {"l'université"} ESTI. On nous a initié à la programmation
                         avec le langage pascal. Avec cette notion, {"j'ai"} pu créer une application desktop pour faire la décompte sur plusieurs postes dans un salle de jeu ou un cyber,
-                        qui est un peut basic. Vous pouver la télecharger dans mes repositories github.
+                        qui est un peut basic. Vous pouvez la télecharger dans mes repositories github.
                     </p>
                     <p className='py-2 text-gray-600'>
-                        Une personne bien organisé, débrouillard et qui fait beaucoup attention aux détails. {"J'adore"} aller dans les salle de sports,
+                        Une personne bien organisée, débrouillarde et qui fait beaucoup attention aux détails. {"J'adore"} aller dans les salle de sports,
                         regarder des films, lire des livres et jouer au jeu video.
                     </p>
                     <p className='py-2 text-gray-600'>
-                        Capable de faire le developpement backend et un peut plus que les basiques du frontend.
+                        Capable de faire le développement backend et un peu plus que les basiques du frontend.
                     </p>
                 </div>
 
