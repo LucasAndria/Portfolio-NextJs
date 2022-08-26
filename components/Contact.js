@@ -44,7 +44,7 @@ function Contact() {
                             <div>
                                 <h2 className="py-2">Lucas ANDRIANARIJAONA</h2>
                                 <p>Developeur web Junior</p>
-                                <p className="py-4">Je suis à votre disposition pour des projets ou pour un emploie. Contacter moi.</p>
+                                <p className="py-4">Je suis à votre disposition pour des projets ou pour un emploie. Contactez-moi.</p>
                             </div>
                             <div>
                                 {/* <p className="uppercase pt-8">Lien : </p> */}
