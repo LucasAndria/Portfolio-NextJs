@@ -9,7 +9,7 @@ function Main() {
             <div className="max-w-[1240px] w-full h-full mx-auto p-2 flex justify-center items-center">
                 <div>
                     <p className="text-xs tracking-widest text-gray-600">
-                        Faire face aux défis, je n'accepte pas les limitations.
+                        Faire face aux défis, je {"n'accepte"} pas les limitations.
                     </p>
                     <h2 className="py-4 text-gray-700">Mon nom est <span className="text-[#5651e5]">Lucas</span></h2>
                     <h2 className="py-4 text-gray-700">Je suis un Développeur Web</h2>
