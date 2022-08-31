@@ -9,9 +9,7 @@ function Skills() {
                 </p>
                 <h2 className="py-4">Les téchnologies que {"j'utilise"}</h2>
                 <div className="grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
-                    {/* tokony map */}
-                    {/* 1 */}
-                    <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
+                    {/* <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
                         <div className="grid grid-cols-2 gap-4 justify-center items-center">
                             <div className="m-auto">
                                 <Image src='/assets/skills/html.png' width='64px' height='64px' alt="HTML logo" />
@@ -21,7 +19,6 @@ function Skills() {
                             </div>
                         </div>
                     </div>
-                    {/* 1 */}
                     <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
                         <div className="grid grid-cols-2 gap-4 justify-center items-center">
                             <div className="m-auto">
@@ -32,7 +29,6 @@ function Skills() {
                             </div>
                         </div>
                     </div>
-                    {/* 1 */}
                     <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
                         <div className="grid grid-cols-2 gap-4 justify-center items-center">
                             <div className="m-auto">
@@ -42,7 +38,7 @@ function Skills() {
                                 <h3>Javascript</h3>
                             </div>
                         </div>
-                    </div>
+                    </div> */}
                     {/* 2 */}
                     <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
                         <div className="grid grid-cols-2 gap-4 justify-center items-center">
@@ -54,8 +50,7 @@ function Skills() {
                             </div>
                         </div>
                     </div>
-                    {/* 2 */}
-                    <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
+                    {/* <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
                         <div className="grid grid-cols-2 gap-4 justify-center items-center">
                             <div className="m-auto">
                                 <Image src='/assets/skills/nextjs.png' width='64px' height='64px' alt="NextJs logo" />
@@ -64,19 +59,7 @@ function Skills() {
                                 <h3>NextJs</h3>
                             </div>
                         </div>
-                    </div>
-                    {/* 3 */}
-                    <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
-                        <div className="grid grid-cols-2 gap-4 justify-center items-center">
-                            <div className="m-auto">
-                                <Image src='/assets/skills/react.png' width='64px' height='64px' alt="React native logo" />
-                            </div>
-                            <div className="flex flex-col items-center justify-center">
-                                <h3>React Native</h3>
-                            </div>
-                        </div>
-                    </div>
-                    {/* 3 */}
+                    </div> */}
                     <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
                         <div className="grid grid-cols-2 gap-4 justify-center items-center">
                             <div className="m-auto">
@@ -87,7 +70,6 @@ function Skills() {
                             </div>
                         </div>
                     </div>
-                    {/* 4 */}
                     <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
                         <div className="grid grid-cols-2 gap-4 justify-center items-center">
                             <div className="m-auto">
@@ -98,7 +80,16 @@ function Skills() {
                             </div>
                         </div>
                     </div>
-                    {/* 5 */}
+                    <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
+                        <div className="grid grid-cols-2 gap-4 justify-center items-center">
+                            <div className="m-auto">
+                                <Image src='/assets/skills/react.png' width='64px' height='64px' alt="React native logo" />
+                            </div>
+                            <div className="flex flex-col items-center justify-center">
+                                <h3>React Native</h3>
+                            </div>
+                        </div>
+                    </div>
                     <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
                         <div className="grid grid-cols-2 gap-4 justify-center items-center">
                             <div className="m-auto">
@@ -109,7 +100,6 @@ function Skills() {
                             </div>
                         </div>
                     </div>
-                    {/* 6 */}
                     <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
                         <div className="grid grid-cols-2 gap-4 justify-center items-center">
                             <div className="m-auto">
@@ -120,7 +110,6 @@ function Skills() {
                             </div>
                         </div>
                     </div>
-                    {/* 7 */}
                     <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
                         <div className="grid grid-cols-2 gap-4 justify-center items-center">
                             <div className="m-auto">
@@ -131,7 +120,6 @@ function Skills() {
                             </div>
                         </div>
                     </div>
-                    {/* 8 */}
                     <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
                         <div className="grid grid-cols-2 gap-4 justify-center items-center">
                             <div className="m-auto">

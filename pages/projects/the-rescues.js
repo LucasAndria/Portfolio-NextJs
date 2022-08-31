@@ -2,10 +2,15 @@ import Image from "next/image"
 import bgImage from '../../public/assets/Projects/the-rescues/img-2.png'
 import { RiRadioButtonFill } from 'react-icons/ri'
 import Link from "next/link"
+import Head from "next/head"
 
 function TheRescues() {
     return (
         <div className="w-full">
+            <Head>
+                <title>Lucas | The rescues</title>
+                <link href="/assets/lux-head.png" />
+            </Head>
             <div className="w-screen h-[30vh] lg:h-[40vh] relative">
                 <div className="absolute top-0 left-0 w-full h-[30vh] lg:h-[40vh] bg-black/80 z-10" />
                 <Image className="absolute z-1" layout="fill" objectFit="cover" src={bgImage} alt="Image" />

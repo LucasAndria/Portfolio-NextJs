@@ -12,7 +12,7 @@ export default function Home() {
     <div>
       <Head>
         <title>Lucas | Développeur junior</title>
-        <link href={"/assets/lux-head.png"} />
+        <link href="/assets/lux-head.png" />
       </Head>
       <Main />
       <About />
