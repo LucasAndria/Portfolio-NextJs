@@ -16,7 +16,7 @@ function TodoList() {
                 <Image className="absolute z-1" layout="fill" objectFit="cover" src={bgImage} alt="Image" />
                 <div className="absolute top-[70%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] text-white z-10" >
                     <h2 className="py-2">Todo List</h2>
-                    <h3>Next Js</h3>
+                    <h3>Application web</h3>
                 </div>
             </div>
 
@@ -26,7 +26,7 @@ function TodoList() {
                     <p className="my-5">
                         Une application très simple à utiliser. Elle permet {"d'é"}crire les différentes tâches que {"l'on"} souhaite accomplir,
                         on peut saisir et ajouter une tache et puis supprimer une tache spécifique. Pour développer cette application,
-                        {" j'ai"} utiliser le framework NextJs avec le language ReactJs et pour la base de données, {"j'ai"} décidé {"d'utiliser"}
+                        {" j'ai"} utiliser le framework NextJs avec le language ReactJs et pour la base de données, {"j'ai"} décidé {"d'utiliser "}
                         firestore de google firebase.
                     </p>
                     <Link href={'https://lux-todo-list.vercel.app/'} passHref={true}>

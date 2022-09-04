@@ -16,7 +16,7 @@ function EGouter() {
                 <Image className="absolute z-1" layout="fill" objectFit="cover" src={bgImage} alt="Image" />
                 <div className="absolute top-[70%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] text-white z-10" >
                     <h2 className="py-2">E-Gouter-Za</h2>
-                    <h3>React native</h3>
+                    <h3>Application mobile</h3>
                 </div>
             </div>
 
