@@ -18,7 +18,8 @@ function Contact() {
 
         emailjs.sendForm('service_a4d75pp', 'portfolio_id', form.current, 'ab24u_EApe1H27i4f')
             .then((result) => {
-                alert(`Votre email a bien été reçu, Je répondrais le plus rapidement possible. ${result.text}`);
+                alert(`Votre email a bien été reçu, Je répondrais le plus rapidement possible.`);
+                console.log(result.text)
             }, (error) => {
                 alert(error.text);
             });
@@ -43,7 +44,7 @@ function Contact() {
                             </div>
                             <div className="mt-5">
                                 {/* <p className="uppercase pt-8">Lien : </p> */}
-                                <p className="py-2 font-bold">lucasandria01@gmail.com <button className="ml-2 px-2 bg-blue-600" onClick={() => (navigator.clipboard.writeText("lucasandria01@gmail.com"), alert('email copié'))}>copier</button></p>
+                                <p className="py-2 font-bold">lucasandria01@gmail.com <button className="ml-2 px-2 bg-blue-600 rounded-xl" onClick={() => (navigator.clipboard.writeText("lucasandria01@gmail.com"), alert('email copié'))}>copier</button></p>
                                 <p className="py-2 font-bold">034 20 529 88 <button className="ml-2 px-2 bg-blue-600" onClick={() => (navigator.clipboard.writeText("034 20 529 88"), alert('numéro copié'))}>copier</button></p>
 
                                 <div className="flex items-center justify-between py-4">
