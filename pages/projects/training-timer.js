@@ -29,7 +29,7 @@ function TrainingTimer() {
                         à chaque fois {"qu'elle"} commence une série et en plus elle ne met pas de minuteur pendant les pauses, par conséquent
                         les pauses sont parfois trop longue. Alors pour {"l'aider"}, je lui ai demander si elle voudrais {"d'une"} application
                         qui fera toutes ces taches automatiquement. Et elle a dit que ça {"l'aiderait"} bien pour arriver à ces objéctifs. La plus
-                        difficile dans la création de cette application était la gestion de plusieurs fonctions "setTimeout" de javascript, {"J'étais"}
+                        difficile dans la création de cette application était la gestion de plusieurs fonctions {'"'}setTimeout{'"'} de javascript, {"J'étais"}
                         obligé de changer 3 fois {"l'algorithme de l'application"} pour {"qu'elle"} soit fonctionnel.
                     </p>
                     <Link href={'https://mega.nz/file/H6ghiQ6D#ym8MpMl7I_gt5Ml6NVk8NN1DckgyKKu9ptGxcNQPZx0'} passHref={true}>

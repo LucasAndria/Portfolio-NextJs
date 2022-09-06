@@ -2,6 +2,7 @@ import ProjectItem from "./ProjectItem"
 import bg_egouter from "../public/assets/Projects/e-gouter/gouter.jpg"
 import bg_todolist from "../public/assets/Projects/todo-list/capture.png"
 import bg_rescues from "../public/assets/Projects/the-rescues/bg-1.png"
+import bg_multiTimer from "../public/assets/Projects/multi-timer/bg.png"
 
 function Projects() {
 
@@ -15,7 +16,7 @@ function Projects() {
                     <ProjectItem titre='The rescues' descri="Un jeu platformer que l'on a créer en 24h pour la gamejam+ 2020" bgImg={bg_rescues} url='/projects/the-rescues' />
                     <ProjectItem titre='Todo List' descri="Une application web pour mémoriser les taches à accomplir" bgImg={bg_todolist} url='/projects/todo-list' />
                     <ProjectItem titre='Training timer' descri="Une application mobile utiliser pendant un entrainement" bgImg={bg_todolist} url='/projects/training-timer' />
-                    <ProjectItem titre='Décompte' descri="Un logiciel utiliser pour faire la décompte de chaque postes dans un salle de jeu" bgImg={bg_todolist} url='/projects/decompte' />
+                    <ProjectItem titre='Multi Timer' descri="Un logiciel utiliser pour faire la décompte de chaque postes dans un salle de jeu" bgImg={bg_multiTimer} url='/projects/multi-timer' />
                 </div>
             </div>
         </div>
