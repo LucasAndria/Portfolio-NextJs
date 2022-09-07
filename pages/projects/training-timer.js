@@ -4,18 +4,18 @@ import { RiRadioButtonFill } from 'react-icons/ri'
 import Link from "next/link"
 import Head from "next/head"
 
-function EGouter() {
+function TrainingTimer() {
     return (
         <div className="w-full">
             <Head>
-                <title>Lucas | E-Gouter-za</title>
+                <title>Lucas | Training Timer</title>
                 <link href="/assets/lux-head.png" />
             </Head>
             <div className="w-screen h-[30vh] lg:h-[40vh] relative">
                 <div className="absolute top-0 left-0 w-full h-[30vh] lg:h-[40vh] bg-black/80 z-10" />
                 <Image className="absolute z-1" layout="fill" objectFit="cover" src={bgImage} alt="Image" />
                 <div className="absolute top-[70%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] text-white z-10" >
-                    <h2 className="py-2">E-Gouter-Za</h2>
+                    <h2 className="py-2">Training Timer</h2>
                     <h3>Application mobile</h3>
                 </div>
             </div>
@@ -24,10 +24,13 @@ function EGouter() {
                 <div className="col-span-4">
                     <h2>Déscription</h2>
                     <p className="my-5">
-                        {"C'est"} un projet qui a été proposé par notre enseignant pour valider notre module Programmation mobile.
-                        Cette application mobile permet de faire des recherches et de commander dans 4 réstaurants situé à Antananarivo.
-                        Elle possede 3 menus dans la bare de navigation, le premier menu est pour faire des recherches et commander des plats
-                        , le deuxième sert à afficher les historiques de commandes, et le dérnier sert à afficher {"l'historique"} journalière.
+                        Pendant la confinement je voyais ma petite soeur {"s'entrainer"} tous les jours et elle devait regarder la montre ou utilser
+                        le minuteur du télephone pour mésurer le temps de ses séries, alors elle est obligé de lancer le minuteur
+                        à chaque fois {"qu'elle"} commence une série et en plus elle ne met pas de minuteur pendant les pauses, par conséquent
+                        les pauses sont parfois trop longue. Alors pour {"l'aider"}, je lui ai demander si elle voudrais {"d'une"} application
+                        qui fera toutes ces taches automatiquement. Et elle a dit que ça {"l'aiderait"} bien pour arriver à ces objéctifs. La plus
+                        difficile dans la création de cette application était la gestion de plusieurs fonctions {'"'}setTimeout{'"'} de javascript, {"J'étais"}
+                        obligé de changer 3 fois {"l'algorithme de l'application"} pour {"qu'elle"} soit fonctionnel.
                     </p>
                     <Link href={'https://mega.nz/file/H6ghiQ6D#ym8MpMl7I_gt5Ml6NVk8NN1DckgyKKu9ptGxcNQPZx0'} passHref={true}>
                         <a target="_blank">
@@ -54,4 +57,4 @@ function EGouter() {
     )
 }
 
-export default EGouter
+export default TrainingTimer

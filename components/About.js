@@ -8,16 +8,14 @@ function About() {
                 <div className='col-span-2'>
                     <p className='uppercase text-xl tracking-widest text-[#5651e5]'>A propos</p>
                     <h2 className='py-4'>Qui suis-je ?</h2>
-                    {/* <p className='py-2 text-gray-600'>
-                        Je suis un dévoppeur web junior
-                    </p> */}
                     <p className='py-2 text-gray-600'>
                         ANDRIANARIJAONA Lucas, Un Développeur Web situé à Antananarivo.
-                        {"J'ai"} commencé à apprendre la programmation, la modélisation et {"l'animation"} 3D en tant {"qu'autodidacte"}. Puis après mon bacc {"j'ai"} décidé
+                        {"J'ai"} commencé à apprendre la modélisation et {"l'animation"} 3D en tant {"qu'autodidacte"}. Puis après mon bacc {"j'ai"} décidé
                         de suivre un cursus universitaire {"d'Intégration"} et Développement à {"l'université"} ESTI. On nous a initié à la programmation
-                        avec le langage pascal. Avec cette notion, {"j'ai"} pu créer une application desktop pour faire la décompte sur plusieurs postes dans un salle de jeu et
-                        peut aussi être utiliser dans un cyber,
-                        qui est un peut basic. Vous pouvez la télecharger dans mes répertoires github.
+                        avec le langage pascal. {"j'ai"} tellement adoré réaliser des petits projets que {"j'ai"} décidé
+                        de créer une application pour faire les décomptes sur plusieurs postes dans un salle de jeu et peut aussi être utiliser dans un cyber.
+                        En suite, quand {"j'ai"} découvert {"qu'il"} éxistait {"d'autre"} language de programmation et que le language pascal {"n'est"} utiliser
+                        dans presque aucune entreprise, {"j'ai"} tous de suite commencer apprendre {"d'autre"} language.
                     </p>
                     <p className='py-2 text-gray-600'>
                         Une personne bien organisée, débrouillarde et qui fait beaucoup attention aux détails. {"J'adore"} aller à la salle de sports,
