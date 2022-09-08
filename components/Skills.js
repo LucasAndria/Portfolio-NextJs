@@ -1,4 +1,6 @@
 import Image from "next/image"
+import { BsLinkedin } from "react-icons/bs"
+import { FaLinkedinIn } from "react-icons/fa"
 
 function Skills() {
     return (
@@ -47,6 +49,7 @@ function Skills() {
                             </div>
                             <div className="flex flex-col items-center justify-center">
                                 <h3>ReactJs</h3>
+                                <h5 className="text-[8px] flex items-center gap-0.5">badge <BsLinkedin /></h5>
                             </div>
                         </div>
                     </div>
