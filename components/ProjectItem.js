@@ -5,7 +5,7 @@ function ProjectItem({ titre, descri, bgImg, url }) {
     return (
         <div className="relative flex items-center justify-center w-full shadow-xl shadow-gray-400 
                     rounded-xl p-4 group hover:bg-gradient-to-r from-[#5651e5] to-[#709dff]">
-            <Image className="rounded-xl group-hover:opacity-40" src={bgImg} alt='background' height={1200} width={1700} />
+            <Image className="rounded-xl group-hover:opacity-50 group-hover:blur-sm" src={bgImg} alt='background' height={1200} width={1700} />
             <div className="hidden group-hover:block absolute top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%]">
                 <h3 className="text-2xl text-gray-800 tracking-wider text-center">{titre}</h3>
                 <p className="pb-4 pt-2 text-gray-800 text-center">{descri}</p>
