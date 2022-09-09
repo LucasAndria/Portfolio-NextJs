@@ -1,4 +1,6 @@
 import Image from "next/image"
+import { BsLinkedin } from "react-icons/bs"
+import { FaLinkedinIn } from "react-icons/fa"
 
 function Skills() {
     return (
@@ -47,6 +49,7 @@ function Skills() {
                             </div>
                             <div className="flex flex-col items-center justify-center">
                                 <h3>ReactJs</h3>
+                                <h5 className="text-[8px] flex items-center gap-0.5">badge <BsLinkedin /></h5>
                             </div>
                         </div>
                     </div>
@@ -73,10 +76,10 @@ function Skills() {
                     <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
                         <div className="grid grid-cols-2 gap-4 justify-center items-center">
                             <div className="m-auto">
-                                <Image src='/assets/skills/firebase.png' width='64px' height='64px' alt="Firebase logo" />
+                                <Image src='/assets/skills/PHP.png' width='64px' height='64px' alt="Firebase logo" />
                             </div>
                             <div className="flex flex-col items-center justify-center">
-                                <h3>Firebase</h3>
+                                <h3>PHP</h3>
                             </div>
                         </div>
                     </div>
@@ -93,20 +96,10 @@ function Skills() {
                     <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
                         <div className="grid grid-cols-2 gap-4 justify-center items-center">
                             <div className="m-auto">
-                                <Image src='/assets/skills/tailwind.png' width='64px' height='64px' alt="HTML logo" />
+                                <Image src='/assets/skills/git.png' width='64px' height='64px' alt="Github logo" />
                             </div>
                             <div className="flex flex-col items-center justify-center">
-                                <h3>Tailwind CSS</h3>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
-                        <div className="grid grid-cols-2 gap-4 justify-center items-center">
-                            <div className="m-auto">
-                                <Image src='/assets/skills/github.png' width='64px' height='64px' alt="Github logo" />
-                            </div>
-                            <div className="flex flex-col items-center justify-center">
-                                <h3>Github</h3>
+                                <h3>Git</h3>
                             </div>
                         </div>
                     </div>
