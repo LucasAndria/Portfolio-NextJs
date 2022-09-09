@@ -38,7 +38,7 @@ function Contact() {
     }
 
     function copyNum() {
-        navigator.clipboard.writeText("034 20 529 88")
+        navigator.clipboard.writeText("+261342052988")
         setCopyNumLoaded(true)
         setTimeout(() => {
             setCopyNumLoaded(false)
