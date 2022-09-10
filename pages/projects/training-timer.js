@@ -1,5 +1,5 @@
 import Image from "next/image"
-import bgImage from '../../public/assets/Projects/e-gouter/Fond.jpeg'
+import bgImage from '../../public/assets/Projects/training-timer/capture.png'
 import { RiRadioButtonFill } from 'react-icons/ri'
 import Link from "next/link"
 import Head from "next/head"
@@ -32,12 +32,12 @@ function TrainingTimer() {
                         difficile dans la création de cette application était la gestion de plusieurs fonctions {'"'}setTimeout{'"'} de javascript, {"J'étais"}
                         obligé de changer 3 fois {"l'algorithme de l'application"} pour {"qu'elle"} soit fonctionnel.
                     </p>
-                    <Link href={'https://mega.nz/file/H6ghiQ6D#ym8MpMl7I_gt5Ml6NVk8NN1DckgyKKu9ptGxcNQPZx0'} passHref={true}>
+                    <Link href={'https://mega.nz/file/fyI3HASC#NjMd4C1u2Ks4pUviKq8NRoOtckUknyt1nlqNAXHwMgw'} passHref={true}>
                         <a target="_blank">
                             <button className="bg-transparent mt-4 hover:shadow-xl hover:scale-110 hover:bg-gray-400 text-gray-700 cursor-pointer font-semibold hover:text-white py-2 px-4 border border-gray-400 hover:border-transparent rounded-xl ease-in-out duration-200">App</button>
                         </a>
                     </Link>
-                    <Link href={'https://github.com/LucasAndria/e-gouter-za'} passHref={true}>
+                    <Link href={'https://github.com/LucasAndria/Training-Timer'} passHref={true}>
                         <a target="_blank">
                             <button className="ml-5 bg-transparent hover:shadow-xl hover:scale-110 mt-4 hover:bg-gray-400 text-gray-700 cursor-pointer font-semibold hover:text-white py-2 px-4 border border-gray-400 hover:border-transparent rounded-xl  ease-in-out duration-200">Code</button>
                         </a>
