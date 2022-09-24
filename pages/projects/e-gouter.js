@@ -48,7 +48,7 @@ function EGouter() {
                         </div>
                     </div>
                 </div>
-                <Link href='/#projects'><p className="underline cursor-pointer mt-10">Back</p></Link>
+                <Link href='/#projects'><p className="underline cursor-pointer mt-10 w-min">Back</p></Link>
             </div>
         </div>
     )

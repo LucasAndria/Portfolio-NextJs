@@ -15,7 +15,7 @@ function Projects() {
                 <p className="text-xl tracking-widest uppercase text-[#5651e5]">Projets</p>
                 <h2 className="py-4">{"Ce que j'ai créé"}</h2>
                 <div className="grid md:grid-cols-2 gap-8">
-                    <ProjectItem titre='Productiverse' descri="Une application web qui permet à la gestion des matières premières et produits de l'entreprise soamadigna" bgImg={bg_productiverse} url='/projects/productiverse' />
+                    {/* <ProjectItem titre='Productiverse' descri="Une application web qui permet à la gestion des matières premières et produits de l'entreprise soamadigna" bgImg={bg_productiverse} url='/projects/productiverse' /> */}
                     <ProjectItem titre='Todo List' descri="Une application web pour mémoriser les taches à accomplir" bgImg={bg_todolist} url='/projects/todo-list' />
                     <ProjectItem titre='Training timer' descri="Une application mobile utiliser pendant un entrainement" bgImg={bg_trainingTimer} url='/projects/training-timer' />
                     <ProjectItem titre='Multi Timer' descri="Un logiciel utiliser pour faire la décompte de chaque postes dans un salle de jeu" bgImg={bg_multiTimer} url='/projects/multi-timer' />
