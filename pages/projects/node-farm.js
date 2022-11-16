@@ -30,11 +30,11 @@ function NodeFarm() {
         <div className="col-span-4">
           <h2>Déscription</h2>
           <p className="my-5">
-            Ce serveur renvoie du HTML mais aussi du JSON si on va sur
-            {"l’endPoint"} «/api ». Dans ce projet, je {"n’ai"} utilisé aucune
-            Framework, donc les requêtes sont vérifier avec du JavaScript en
-            comparant le pathname envoyer. Les différentes pages web sont rendu
-            dynamique avec la méthode replace de JavaScript.
+            Ce serveur renvoie du HTML mais aussi du JSON si on va sur «/api ».
+            Ce projet a été réalisé pour apprendre node Js sans Framework, donc
+            les requêtes sont vérifier avec du JavaScript avec la comparaison du
+            pathname envoyer avec les routes prédéfinies. Les différentes pages
+            web sont rendu dynamiquement avec la méthode replace de JavaScript.
           </p>
           <Link href="https://node-farm-lux.herokuapp.com" passHref={true}>
             <a target="_blank">

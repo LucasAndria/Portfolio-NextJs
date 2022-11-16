@@ -15,7 +15,7 @@ function Skills() {
             <div className="grid grid-cols-2 gap-4 justify-center items-center">
               <div className="m-auto">
                 <Image
-                  src="/assets/skills/react.png"
+                  src="/assets/skills/node.png"
                   width="64px"
                   height="64px"
                   alt="React native logo"
