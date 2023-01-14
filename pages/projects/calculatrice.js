@@ -30,9 +30,11 @@ function Calculatrice() {
         <div className="col-span-4">
           <h2>Déscription</h2>
           <p className="my-5">
-            {"C’est"} mon premier projet avec du JavaScript. {"J’ai"} appris les
-            bases du langage JavaScript, ensuite {"j’ai"} créé ce projet à
-            partir de rien sans avec du pure HTML, CSS et Js.
+            {`
+              J'ai fait ce projet (calculatrice) avec du Javascript natif, HTML et CSS. 
+              Le design est propre et simple, avec un champ d'input type text, ainsi que
+              des boutons qui on des effets de 3D fait avec le box-shadow de css.
+            `}
           </p>
           <Link href={"https://qups7n.csb.app/"} passHref={true}>
             <a target="_blank">

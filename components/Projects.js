@@ -20,10 +20,10 @@ function Projects() {
         <div className="grid md:grid-cols-2 gap-8">
           {/* <ProjectItem titre='Productiverse' descri="Une application web qui permet à la gestion des matières premières et produits de l'entreprise soamadigna" bgImg={bg_productiverse} url='/projects/productiverse' /> */}
           <ProjectItem
-            titre="Natours"
+            titre="Tours Mada"
             descri="Site web generer par du serveur side rendering"
             bgImg={bg_natours}
-            url="/projects/natours"
+            url="/projects/tours-mada"
           />
           <ProjectItem
             titre="Node Farm"
@@ -44,10 +44,10 @@ function Projects() {
             url="/projects/training-timer"
           />
           <ProjectItem
-            titre="Multi Timer"
+            titre="Décompte"
             descri="Un logiciel utiliser pour faire la décompte de chaque postes dans un salle de jeu"
             bgImg={bg_multiTimer}
-            url="/projects/multi-timer"
+            url="/projects/decompte"
           />
           <ProjectItem
             titre="Calculatrice"

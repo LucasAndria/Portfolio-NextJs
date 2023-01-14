@@ -30,20 +30,12 @@ function TrainingTimer() {
         <div className="col-span-4">
           <h2>Déscription</h2>
           <p className="my-5">
-            Pendant le confinement je voyais ma petite soeur {"s'entrainer "}
-            tous les jours et elle devait regarder la montre ou utilser le
-            minuteur du télephone pour mésurer le temps de ses séries, alors
-            elle est obligé de lancer le minuteur à chaque fois {"qu'elle "}
-            commence une série et en plus elle ne met pas de minuteur pendant
-            les pauses, par conséquent les pauses sont parfois trop longue.
-            Alors pour {"l'aider"}, je lui ai demander si elle voudrais
-            {" d'une"} application qui fera toutes ces taches automatiquement.
-            Et elle a dit que ça {"l'aiderait"} bien pour arriver à ces
-            objéctifs. La plus difficile dans la création de cette application
-            était la gestion de plusieurs fonctions {'"'}setTimeout{'"'} de
-            javascript, {"J'étais"}
-            obligé de changer 3 fois {"l'algorithme de l'application"} pour
-            {" qu'elle"} soit fonctionnel.
+            Training Timer est une application mobile pour la temporisation des
+            entrainements qui aide les utilisateurs à suivre leur routine
+            {"d’exercice"}. {"L’application"} présente une interface simple qui
+            permet aux utilisateurs de définir la durée et les intervalles de
+            repos pour leur entraînement. {"J’ai"} utilisé React Native pour
+            développer cette application.
           </p>
           <Link
             href={

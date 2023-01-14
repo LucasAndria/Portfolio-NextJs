@@ -1,14 +1,14 @@
 import Image from "next/image";
-import bgImage from "../../public/assets/Projects/natours/Fond.JPG";
+import bgImage from "../../public/assets/Projects/multi-timer/capture.png";
 import { RiRadioButtonFill } from "react-icons/ri";
 import Link from "next/link";
 import Head from "next/head";
 
-function Natours() {
+function MultiTimer() {
   return (
     <div className="w-full">
       <Head>
-        <title>Lucas | Natours</title>
+        <title>Lucas | Décompte</title>
         <link href="/assets/lux-head.png" />
       </Head>
       <div className="w-screen h-[30vh] lg:h-[40vh] relative">
@@ -21,8 +21,8 @@ function Natours() {
           alt="Image"
         />
         <div className="absolute top-[70%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] text-white z-10">
-          <h2 className="py-2">Natours</h2>
-          <h3>Site web</h3>
+          <h2 className="py-2">Décompte</h2>
+          <h3>Application desktop</h3>
         </div>
       </div>
 
@@ -30,31 +30,31 @@ function Natours() {
         <div className="col-span-4">
           <h2>Déscription</h2>
           <p className="my-5">
-            {"C’est"} un site web de type server side rendering. {"J’ai"}{" "}
-            utilisé le template engine pug pour faire les rendues dynamique des
-            pages web. On peut créer un compte, {"s’authentifier"}, parcourir et
-            acheté les différentes tours et modifier son profil. Les données
-            sont stockées dans une base de données mongodb et
-            {" l’authentification"} est faite avec le Json Web Token {"(JWT)"}.
+            {"J'ai"} créé cette application desktop pour faciliter les tâches
+            des gérants de salles de jeux et de cybercafés. Elle comprend
+            plusieurs minuteurs qui peuvent être ajouter ou diminuer en fonction
+            du nombre de console ou ordinateur, et qui possedent plusieurs
+            fonctionnalités, par éxemple, la couleur change pour devenir rouge
+            {"lorsqu'un"} client {"n'a"} pas encore payé. Toutes les actions
+            effectuées dans ce logiciel sont enregistrées dans un fichier texte
+            afin de suivre les recettes quotidiennes.
           </p>
-          <Link href="https://natours-lux.herokuapp.com/" passHref={true}>
+          <Link
+            href={
+              "https://mega.nz/file/OngH3SBJ#9Gcj2dpvDvAw0IcEKWGy1eA1NevuZoyrecn-oHCbqrY"
+            }
+            passHref={true}
+          >
             <a target="_blank">
               <button className="bg-transparent mt-4 hover:shadow-xl hover:scale-110 hover:bg-gray-400 text-gray-700 cursor-pointer font-semibold hover:text-white py-2 px-4 border border-gray-400 hover:border-transparent rounded-xl ease-in-out duration-200">
-                Site
+                Logiciel
               </button>
             </a>
           </Link>
           <Link
-            href="https://documenter.getpostman.com/view/20385594/2s8YmGW6hy"
+            href={"https://github.com/LucasAndria/MultiTimer"}
             passHref={true}
           >
-            <a target="_blank">
-              <button className="ml-5 bg-transparent hover:shadow-xl hover:scale-110 mt-4 hover:bg-gray-400 text-gray-700 cursor-pointer font-semibold hover:text-white py-2 px-4 border border-gray-400 hover:border-transparent rounded-xl  ease-in-out duration-200">
-                Doc API
-              </button>
-            </a>
-          </Link>
-          <Link href={"https://github.com/LucasAndria/natours"} passHref={true}>
             <a target="_blank">
               <button className="ml-5 bg-transparent hover:shadow-xl hover:scale-110 mt-4 hover:bg-gray-400 text-gray-700 cursor-pointer font-semibold hover:text-white py-2 px-4 border border-gray-400 hover:border-transparent rounded-xl  ease-in-out duration-200">
                 Code
@@ -68,19 +68,7 @@ function Natours() {
             <div className="grid grid-cols-3 md:grid-cols-1">
               <p className="text-gray-600 py-2 flex items-center">
                 <RiRadioButtonFill className="mr-1" />
-                NodeJs
-              </p>
-              <p className="text-gray-600 py-2 flex items-center">
-                <RiRadioButtonFill className="mr-1" />
-                ExpressJs
-              </p>
-              <p className="text-gray-600 py-2 flex items-center">
-                <RiRadioButtonFill className="mr-1" />
-                MongoDB
-              </p>
-              <p className="text-gray-600 py-2 flex items-center">
-                <RiRadioButtonFill className="mr-1" />
-                Pug
+                Pascal
               </p>
             </div>
           </div>
@@ -93,4 +81,4 @@ function Natours() {
   );
 }
 
-export default Natours;
+export default MultiTimer;
