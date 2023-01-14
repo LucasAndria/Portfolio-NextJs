@@ -44,7 +44,7 @@ function Natours() {
               Les données sont stockées dans une base de données mongodb.
             `}
           </p>
-          <Link href="https://natours-lux.herokuapp.com/" passHref={true}>
+          <Link href="https://tours-mada.deta.dev/" passHref={true}>
             <a target="_blank">
               <button className="bg-transparent mt-4 hover:shadow-xl hover:scale-110 hover:bg-gray-400 text-gray-700 cursor-pointer font-semibold hover:text-white py-2 px-4 border border-gray-400 hover:border-transparent rounded-xl ease-in-out duration-200">
                 Site
@@ -61,7 +61,7 @@ function Natours() {
               </button>
             </a>
           </Link>
-          <Link href={"https://github.com/LucasAndria/natours"} passHref={true}>
+          <Link href={"https://github.com/LucasAndria/tours-mada"} passHref={true}>
             <a target="_blank">
               <button className="ml-5 bg-transparent hover:shadow-xl hover:scale-110 mt-4 hover:bg-gray-400 text-gray-700 cursor-pointer font-semibold hover:text-white py-2 px-4 border border-gray-400 hover:border-transparent rounded-xl  ease-in-out duration-200">
                 Code
