@@ -11,25 +11,32 @@ function About() {
           </p>
           <h2 className="py-4">Qui suis-je ?</h2>
           <p className="py-2 text-gray-600">
-            ANDRIANARIJAONA Lucas, Un Développeur Web situé à Antananarivo.
-            Passionné par les nouvelles technologies, {"J'ai"} commencé avec la
-            modélisation et {"l'animation"} 3D en tant {"qu'autodidacte"}. Puis
-            après mon bacc {"j'ai"} suivi un cursus universitaire dans le
-            parcours Intégration et Développement {"(IDEV)"} à {"l'université "}
-            ESTI. On nous a initiés à la programmation avec le langage pascal.
-            Avec lequel {"j'ai"} pu réaliser plusieurs petits projets
-            personnels.
+            {`
+            Andrianarijaona Lucas, un développeur web situé à Antananarivo.
+            Passionné par les nouvelles technologies, j'ai commencé avec la
+            modélisation et l'animation 3D en tant qu'autodidacte. Puis
+            après mon baccalauréat, j'ai suivi un cursus universitaire dans
+            le parcours Intégration et Développement (IDEV) à l'université 
+            ESTI. On nous a initiés à la programmation avec le langage Pascal.
+            Avec lequel j'ai pu réaliser plusieurs mini-projets personnels.
+            `}
           </p>
           <p className="py-2 text-gray-600">
-            Après avoir utilisé plusieurs langages de programmation, {"j’ai "}
-            choisi {"d’utiliser"} JavaScript à cause de sa rapidité, sa
-            flexibilité mais aussi parce que {"c’est l’une"} des langages de
-            programmation les plus utiliser.
+            {`
+            Ayant exploré plusieurs langages de programmation,
+            j'ai décidé d'utiliser JavaScript en raison de sa vitesse
+            d'exécution, de sa flexibilité et de sa popularité parmi les
+            développeurs.
+            `}
           </p>
           <p className="py-2 text-gray-600">
-            Une personne bien organisée, débrouillarde et qui fait beaucoup
-            attention aux détails. {"J'adore"} aller à la salle de sports,
-            regarder des films, lire des livres et jouer au jeu video.
+            {`
+            Après avoir obtenu ma licence, j'ai consacré de nombreux jours
+            et nuits à la création de projets passionnants et à l'étude de
+            sujets qui m'intéressaient afin de renforcer mes compétences.
+            Aujourd'hui, je suis capable de créer pratiquement
+            n'importe quel type de projet.
+            `}
           </p>
         </div>
 
