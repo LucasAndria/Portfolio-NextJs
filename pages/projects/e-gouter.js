@@ -31,10 +31,13 @@ function EGouter() {
           <h2>Déscription</h2>
           <p className="my-5">
             {`
-                C'est un projet qui a été proposé par notre enseignant pour valider notre module Programmation mobile.
-                Cette application mobile permet de faire des recherches et de commander dans 4 réstaurants situé à Antananarivo.
-                Elle possede 3 menus dans la bare de navigation, le premier menu est pour faire des recherches et commander des plats
-                , le deuxième sert à afficher les historiques de commandes, et le dérnier sert à afficher l'historique journalière.
+                Notre enseignant nous a proposé ce projet pour valider notre module
+                de Programmation mobile. L'application permet de faire des
+                recherches et de commander dans 4 restaurants situés à Antananarivo.
+                Elle comporte 3 menus dans la barre de navigation : le premier pour
+                effectuer des recherches et passer des commandes, le second pour
+                afficher l'historique des commandes, et le dernier pour afficher
+                l'historique journalier.
             `}
           </p>
           <Link
