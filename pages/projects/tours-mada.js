@@ -1,14 +1,14 @@
 import Image from "next/image";
-import bgImage from "../../public/assets/Projects/natours/Fond.JPG";
+import bgImage from "../../public/assets/Projects/tours-mada/Fond.JPG";
 import { RiRadioButtonFill } from "react-icons/ri";
 import Link from "next/link";
 import Head from "next/head";
 
-function Natours() {
+function ToursMada() {
   return (
     <div className="w-full">
       <Head>
-        <title>Lucas | Natours</title>
+        <title>Lucas | Tours Mada</title>
         <link href="/assets/lux-head.png" />
       </Head>
       <div className="w-screen h-[30vh] lg:h-[40vh] relative">
@@ -61,7 +61,10 @@ function Natours() {
               </button>
             </a>
           </Link>
-          <Link href={"https://github.com/LucasAndria/tours-mada"} passHref={true}>
+          <Link
+            href={"https://github.com/LucasAndria/tours-mada"}
+            passHref={true}
+          >
             <a target="_blank">
               <button className="ml-5 bg-transparent hover:shadow-xl hover:scale-110 mt-4 hover:bg-gray-400 text-gray-700 cursor-pointer font-semibold hover:text-white py-2 px-4 border border-gray-400 hover:border-transparent rounded-xl  ease-in-out duration-200">
                 Code
@@ -100,4 +103,4 @@ function Natours() {
   );
 }
 
-export default Natours;
+export default ToursMada;

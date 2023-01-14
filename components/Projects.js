@@ -7,7 +7,7 @@ import bg_trainingTimer from "../public/assets/Projects/training-timer/bg.png";
 import bg_productiverse from "../public/assets/Projects/productiverse/interfaces/Befor/bg.png";
 import bg_calculatrice from "../public/assets/Projects/calculatrice/bg.JPG";
 import bg_nodeFarm from "../public/assets/Projects/node-farm/bg.JPG";
-import bg_natours from "../public/assets/Projects/natours/bg.JPG";
+import bg_toursMada from "../public/assets/Projects/tours-mada/bg.JPG";
 
 function Projects() {
   return (
@@ -22,7 +22,7 @@ function Projects() {
           <ProjectItem
             titre="Tours Mada"
             descri="Site web generer par du serveur side rendering"
-            bgImg={bg_natours}
+            bgImg={bg_toursMada}
             url="/projects/tours-mada"
           />
           <ProjectItem
