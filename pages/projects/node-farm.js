@@ -29,13 +29,15 @@ function NodeFarm() {
       <div className="max-w-[1240px] mx-auto p-2 grid md:grid-cols-5 gap-8 pt-8">
         <div className="col-span-4">
           <h2>Déscription</h2>
-          <p className="my-5">
-            Ce projet a été réalisé pour apprendre node Js sans Framework, donc
-            les requêtes sont vérifier avec du JavaScript qui consiste à
-            comparer le pathname envoyer et les routes prédéfinies. Les
+          <p className="mt-5">
+            Ce projet a été réalisé pour apprendre node Js sans l'utilisation de
+            Framework. Les requêtes sont vérifier avec du JavaScript en
+            comparant le pathname envoyer et les routes prédéfinies. Les
             différentes pages web sont rendu dynamiquement avec la méthode
-            replace de JavaScript. Ce serveur renvoie du HTML mais aussi du JSON
-            si on va sur «/api ».
+            replace de JavaScript.
+          </p>
+          <p className="my-3">
+            Ce serveur renvoie du HTML mais aussi du JSON si on va sur «/api ».
           </p>
           <Link href="https://node-farm.b4a.app/" passHref={true}>
             <a target="_blank">

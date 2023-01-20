@@ -29,17 +29,26 @@ function ToursMada() {
       <div className="max-w-[1240px] mx-auto p-2 grid md:grid-cols-5 gap-8 pt-8">
         <div className="col-span-4">
           <h2>Déscription</h2>
-          <p className="my-5">
+          <p className="mt-5">
             {`
               C’est un site web de type server side rendering, J’ai utilisé le
               template engine pug pour faire les rendues dynamique des pages web.
               Mais elle peut aussi être utiliser en tant qu'API, par exemple si on
               veut récupérer la liste des tours, on fait un GET sur l'endpoint
               (/api/v1/tours), si vous voulez avoir plus d'information à propos de
-              l'API, appuyez sur le bouton Doc API dessous. J'ai utilisé le Json
-              Web Token (JWT) pour le system d'authentification, les systems de
-              mailing sont éfféctuer avec nodemailer et le service sendgrid. Dans
-              cette application, On peut créer un compte, s’authentifier,
+              l'API, appuyez sur le bouton Doc API.
+            `}
+          </p>
+          <p className="mt-3">
+            {`
+              J'ai utilisé le Json Web Token (JWT) pour le system
+              d'authentification, les systems de mailing sont éfféctuer avec
+              nodemailer et le service sendgrid.
+            `}
+          </p>
+          <p className="my-3">
+            {`
+              Dans cette application, On peut créer un compte, s’authentifier,
               parcourir et acheté les différentes tours et modifier son profil.
               Les données sont stockées dans une base de données mongodb.
             `}

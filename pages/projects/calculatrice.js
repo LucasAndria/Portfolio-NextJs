@@ -32,8 +32,8 @@ function Calculatrice() {
           <p className="my-5">
             {`
               J'ai fait ce projet (calculatrice) avec du Javascript natif, HTML et CSS. 
-              Le design est propre et simple, avec un champ d'input type text, ainsi que
-              des boutons qui on des effets de 3D fait avec le box-shadow de css.
+              Le design est simple, avec un champ d'input type text, ainsi que
+              des boutons qui on des effets de 3D réaliser avec le box-shadow.
             `}
           </p>
           <Link href={"https://qups7n.csb.app/"} passHref={true}>

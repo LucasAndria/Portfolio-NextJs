@@ -29,13 +29,15 @@ function TrainingTimer() {
       <div className="max-w-[1240px] mx-auto p-2 grid md:grid-cols-5 gap-8 pt-8">
         <div className="col-span-4">
           <h2>Déscription</h2>
-          <p className="my-5">
+          <p className="mt-5">
             Training Timer est une application mobile pour la temporisation des
             entrainements qui aide les utilisateurs à suivre leur routine
-            {"d’exercice"}. {"L’application"} présente une interface simple qui
-            permet aux utilisateurs de définir la durée et les intervalles de
-            repos pour leur entraînement. {"J’ai"} utilisé React Native pour
-            développer cette application.
+            {"d’exercice"}.
+          </p>
+          <p className="my-3">
+            {"L’application"} présente une interface simple qui permet aux
+            utilisateurs de définir la durée et les intervalles de repos pour
+            leur entraînement.
           </p>
           <Link
             href={

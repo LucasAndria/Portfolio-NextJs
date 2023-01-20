@@ -31,13 +31,13 @@ function TheRescues() {
           <h2>Déscription</h2>
           <p className="my-5">
             {`
-                Ce jeu a été créé en 24h pour notre premier gameJam en 2020, et
-                c'est notre première création de jeu vidéo. Dans ce jeu, vous pouvez
-                choisir d'incarner un héros ou un singe pour accomplir votre
-                mission. Les deux personnages ont des missions spécialisées adaptées
-                à leurs capacités, alors il faudra bien alterner entre les deux pour
-                réussir la mission. Le but du jeu est de libérer les animaux
-                capturés dans des cages.
+              Ce jeu a été créé en 24h pour notre premiere participation au
+              GameJam en 2020, et c'est aussi notre première création de jeu
+              vidéo. Dans ce jeu, vous pouvez choisir d'incarner un héros ou un
+              singe pour accomplir votre mission. Les deux personnages ont des
+              missions spécialisées adaptées à leurs capacités, alors il faudra
+              bien alterner entre les deux pour réussir la mission. Le but du jeu
+              est de libérer les animaux capturés dans des cages.
             `}
           </p>
           <Link
